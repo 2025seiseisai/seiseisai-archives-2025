@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <LINK REL="SHORTCUT ICON" HREF="../../images/fabi.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="canonical" href="http://seisei52nd.com/map/map.html">
+    <title>マップ-東大寺学園 第52回 菁々祭 </title>
+    <meta name="keywords" content="菁々祭,東大寺学園,文化祭,東大寺,52,釆氏の会" />
+    <meta name="description" content="第52回東大寺学園文化祭-菁々祭-のオフィシャルサイトです。文化祭の最新情報や校内図、イベント情報などを公開しています。">
+    <script src="../../js/jquery-2.2.2.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../../js/jquery.center.js"></script>
+    <script type="text/javascript" src="../../js/html5shiv-master/src/html5shiv.js"></script>
+    <script type="text/javascript" src="../../js/velocity.min.js"></script>
+    <link href="../../css/sp-main.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, maximum-scale=1.0, user-scalable=yes">
+
+    <script>
+        $(function () {
+            $(".b").click(function () {
+                var $menu = $(".sub-menu");
+                var $ham = $(".ham");
+                var $cover = $(".cover");
+                $menu.toggleClass('open');
+                $(".menu-trigger").toggleClass('active');
+                if ($menu.hasClass('open')) {
+                    $menu.velocity({
+                        left: "20%"
+                    }, {
+                        duration: 500
+                    });
+                    $cover.css("display", "block");
+                    $ham.velocity({
+                        right: "80%"
+                    }, {
+                        duration: 500
+                    });
+                } else {
+                    $menu.velocity({
+                        left: "100%"
+                    }, {
+                        duration: 500
+                    });
+                    $cover.css("display", "none");
+                    $ham.velocity({
+                        right: "0px",
+                    }, {
+                        duration: 500
+                    });
+                }
+            });
+            //, {
+            //        easing: 'easeOutCubic'
+            //  }
+            $(".cover").click(function () {
+                var $menu = $(".sub-menu");
+                var $ham = $(".ham");
+                var $cover = $(".cover");
+                $menu.velocity({
+                    left: "100%"
+                }, {
+                    duration: 500
+                });
+                $cover.css("display", "none");
+                $ham.velocity({
+                    right: "0px",
+                }, {
+                    duration: 500
+                });
+                $menu.removeClass('open');
+                $(".menu-trigger").removeClass('active');
+            });
+            $(".con-wr").center({});
+            $(".news-c>span").center({
+                horizontal: false
+            });
+            $(".sub-menu>ul>span").click(function () {
+                $(this).next("div").children("li").slideToggle();
+            });
+        });
+    </script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-77386163-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script>
+        $(function () {
+            $('.totop').click(function () {
+                $('html,body').animate({
+                    scrollTop: 0
+                }, 'slow');
+
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="sub-menu">
+        <div class="sub-wrp">
+            <div class="s-home">
+                <a href="../index.html" class="home"><i class="fa fa-home"></i><span>home</span></a>
+                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+        <ul><span><i class="fa fa-angle-down"></i>インフォメーション</span>
+            <div>
+                <li><a href="../information/information.html">トップ</a></li>
+                <li><a href="../information/information.html#date">日程</a></li>
+                <li><a href="../information/information.html#time">時間</a></li>
+                <li><a href="../information/information.html#ent">入場について</a></li>
+            </div>
+        </ul>
+        <ul><span><i class="fa fa-angle-down"></i>アクセス</span>
+            <div>
+                <li><a href="../access/access.html">トップ</a></li>
+                <li><a href="../access/access.html#nst">最寄り駅など </a></li>
+                <li><a href="../access/access.html#tmp">高の原駅から</a></li>
+            </div>
+        </ul>
+        <ul><span><i class="fa fa-angle-down"></i>マップ</span>
+            <div>
+                <li><a href="../map/map.html">トップ</a></li>
+                <li><a href="../map/map.html#koz">校内図</a></li>
+                <li><a href="../map/map.html#tdi">展示団体一覧</a></li>
+            </div>
+        </ul>
+        <ul><span><i class="fa fa-angle-down"></i>イベント</span>
+            <div>
+                <li><a href="../event/event.html">トップ</a></li>
+                <li><a href="../event/event.html#tit">タイムテーブル</a></li>
+                <li><a href="../event/event.html#evo">イベント団体</a></li>
+                <li><a href="../event/event.html#wos">公開授業</a></li>
+            </div>
+        </ul>
+        <ul><span><i class="fa fa-angle-down"></i>スペシャル</span>
+            <div>
+                <li><a href="../special/special.html">トップ</a></li>
+                <li><a href="../special/special.html">ダウンロード</a></li>
+            </div>
+
+        </ul>
+    </div>
+
+    <div class="st-header">
+        <div class="totop"><span>top</span></div>
+        <a href="../../index.html"><img src="../../images/rogo.png" height="100px" width="50px" class="top-rogo" alt="rogo"></a>
+        <div class="box"></div>
+        <div class="ham b">
+            <a class="menu-trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+    </div>
+    <div class="cover"></div>
+    <div class="main">
+        <header class="header">
+        </header>
+        <div class="contents">
+            <h1>マップ</h1>
+            <h2>校内図<div class="line" id="koz"></div></h2>
+            <p>本校の校内図です。</p>
+            <a href="../../images/sp-map.jpg"><img src="../../images/sp-map.jpg" class="con-img" height="100" width="100" alt="map"></a>
+            <h2>展示団体一覧<div class="line" id="tdi"></div></h2>
+            <div class="exo">
+                <div class="exo-wrap">
+                    <img src="../../images/sug.jpg" height="100" width="100" class="box-m">
+                    <div><span>書道部　　1A</span>
+                        <br>臨書・創作・拓本の展示。なお、アンケートに答えていただくとうちわと交換します。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/sug.jpg" height="100" width="100" class="box-m">
+                    <div><span>中１科学実験　　1BCD</span>
+                        <br>鏡づくり、さわれる水、水中シャボン玉、スライム、スーパーボール、浮き出す文字、そして燃える文字などを実際に体験してみよう。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/sug.jpg" height="100" width="100" class="box-m">
+                    <div><span>中１壁画　　1BCD</span>
+                        <br>今年の中１も壁画をします。やや小ぶりですが、見てください。テーマは…。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/sug.jpg" height="100" width="100">
+                    <div><span>数学研究会　　2A</span>
+                        <br>懸賞問題や計算大会を用意しています。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/sug.jpg" height="100" width="100" class="box-m">
+                    <div><span>東菁会　　2B</span>
+                        <br>東菁会会員の作品を展示しております。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/sug.jpg" height="100" width="100" class="box-m">
+                    <div><span>中２　　2CD</span>
+                        <br>今回、中２のものづくりでは、迷路に深海の世界を組み合わせた作品を展示します。迷路を回りながら、深海に関する展示も見ることもできるので、どなたでも楽しめます。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/sug.jpg" height="100" width="100" class="box-m">
+                    <div><span>中３教室展示パート　　3AB</span>
+                        <br>学校のジオラマと、様々なテーマの壁新聞を展示します。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/sei.jpg" height="100" width="100">
+                    <div><span>歴史部菁史会　　3Cf</span>
+                        <br>仏像が、そこにあります。本当にあるのでしょうか。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/sei.jpg" height="100" width="100" class="box-m">
+                    <div><span>軍事同好会　　3Cr</span>
+                        <br>第２次世界大戦に興味がある人は来てください！
+                        <br>クイズも用意しています！
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/pok.jpg" height="100" width="100">
+                    <div><span>ポケモン同好会　　3Df</span>
+                        <br>ポケモン好き集まれ！新作も発表されて再ブーム到来。 息抜きにぜひ。展示もあるよ！
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/dor.jpg" height="100" width="100">
+                    <div><span>ドラえもん研究同好会　　3Dr</span>
+                        <br>今年もドラえもんクイズを用意しています。
+                        <br>今年のドラえもん王は誰だ？
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/sei.jpg" height="100" width="100" class="box-m">
+                    <div><span>音楽部　　4A</span>
+                        <br>僕たちは音楽に対して真剣に取り組んでいるクラブです。
+                        <br>ぜひ演奏を聴きに来てください。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/ang.jpg" height="100" width="100">
+                    <div><span>暗号同好会　　4Bf</span>
+                        <br>急募：暗号に興味ある人、スパイ希望者必見！
+                        <br>PCによる暗号化体験、部誌発行あり。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/jyo.jpg" height="100" width="100">
+                    <div><span>情報同好会　　4Br</span>
+                        <br>会員が作ったPCゲームが遊べます。
+                        <br>CD配布もあるよ！
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/sei.jpg" height="100" width="100" class="box-m">
+                    <div><span>文藝同好会　　4Cf</span>
+                        <br>会員の文学に対する熱い思いを込めた会誌を配布しております。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/ani.jpg" height="100" width="100">
+                    <div><span>アニメ研究会　　4D</span>
+                        <br>ガンダムなどのプラモデルを展示しています。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/mga.jpg" height="100" width="100">
+                    <div><span>MGA同好会　　4E</span>
+                        <br>変人が集うこの同好会では、自作ゲームを紹介しています。
+                        <br>火照った体の冷やし所です。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/sug.jpg" height="100" width="100" class="box-m">
+                    <div><span>観賞魚同好会　　5Af</span>
+                        <br>日本の川魚メインで展示しています。休憩がてらお立ち寄りください。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/rok.jpg" height="100" width="100">
+                    <div><span>ロケット同好会　　5Ar</span>
+                        <br>本物の火薬を使った、本格的なロケットを飛ばします。ぜひグラウンドにもどうぞ！
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/sug.jpg" height="100" width="100" class="box-m">
+                    <div><span>登山同好会　　5Bf</span>
+                        <br>歩き疲れたそこのアナタ！一息ついて、「面白い」紀行文でも読みませんか？
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/eig.jpg" height="100" width="100">
+                    <div><span>英語研究会　　5Br</span>
+                        <br>模擬国連活動の展示や英語のパズルをしています！ Enjoy puzzles and win prizes!!
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/sug.jpg" height="100" width="100" class="box-m">
+                    <div><span>写真部　　5C</span>
+                        <br>写真とは何か。被写体とは何か。芸術表現として写真を研究する。それが我が写真部！
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/den.jpg" height="100" width="100">
+                    <div><span>電子工作部　　5D</span>
+                        <br>部員が回路設計・製作した自律式サッカーロボットやマイコンを使った作品などを展示。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/maj.jpg" height="100" width="100">
+                    <div><span>マジック同好会　　5E</span>
+                        <br>１日に数回ショーをします。
+                        <br>その時間以外でも、来てくれた方にはマジックを見せます。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/eng.jpg" height="100" width="100">
+                    <div><span>園芸部　　6A</span>
+                        <br>例年通り植物苗の販売を行います。
+                        <br>また、植物の展示も行います。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/kui.jpg" height="100" width="100">
+                    <div><span>クイズ研究部　　6B</span>
+                        <br>早押し体験や部員自作問題の配布をします。
+                        <br> 体育館の○×クイズも是非！
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/ori.jpg" height="100" width="100">
+                    <div><span>折り紙同好会　　6Cf</span>
+                        <br>たかが紙、されど芸術。
+                        <br>「これが紙？」という感動を味わってください。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/che.jpg" height="100" width="100">
+                    <div><span>チェス研究会　　6Cr</span>
+                        <br>今日は東大寺学園で。さあ、白黒つけようじゃないか。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/kou.jpg" height="100" width="100">
+                    <div><span>航空研究会　　6Df</span>
+                        <br>旅客機は好きか？戦闘機は好きか？そんなあなたはぜひ空研に！
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/nor.jpg" height="100" width="100">
+                    <div><span>のりもの友の会　　6Dr</span>
+                        <br>鉄道シュミレータやジオラマ、旅行手段の研究など、お子様から熱心なファンまで楽しめます。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/tet.jpg" height="100" width="100">
+                    <div><span>鉄道研究部　　6E</span>
+                        <br>菁々祭といえば鉄研！自由に運転できる模型！みんな楽しい展示！レッツ出発進行！
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/igo.jpg" height="100" width="100">
+                    <div><span>囲碁将棋部　　音楽室</span>
+                        <br>部員との対局や、部員の作った詰将棋などの展示をしています。
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/sug.jpg" height="100" width="100" class="box-m">
+                    <div><span>新聞部　　新聞部室前</span>
+                        <br>伝統的冊子「番茶党」を発行します！
+                        <br>今年の一味違う番茶を堪能あれ！
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/kag.jpg" height="100" width="100">
+                    <div><span>科学部　　生物室</span>
+                        <br>緊急事態！巨大ミジンコが生物室に出現！
+                        <br>理科好きの皆様、楽しめること間違いなし！
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/sei.jpg" height="100" width="100" class="box-m">
+                    <div><span>美術部　　美術室</span>
+                        <br>文化祭関連の原画・原案や美術部員による壁画、個人作品などの多数展示！ご高覧あれ！
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/igo.jpg" height="100" width="100" class="box-m">
+                    <div><span>中３謎解きパート　　情報教室</span>
+                        <br>皆さんが実際に謎を解く「リアル謎解きゲーム」を実施します。君は謎を解き明かせるか？
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/sei.jpg" height="100" width="100" class="box-m">
+                    <div><span>お茶席　　和室・会議室</span>
+                        <br>今年も菁々会茶道同好会により、菁々祭お茶席を開催させていただきます。
+                        <br>美味しいお抹茶とお菓子をご用意しておりますので皆さまお誘いあわせの上、お越しください。
+                        <br>東大寺にゆかりのあるお道具も見ていただけます。
+                        <br>お茶席のご経験のない方でも、どうぞお気軽に…。
+                        <br>会議室（椅子席）・和室（お点前）のどちらでもお好きな場所でお召し上がりいただけます。
+                        <br>また、この学園でしか手に入れることのできない東大寺饅頭の販売もございます。１箱２個入り600円、限定数ありです。
+                        <br>時間……9時30分～15時30分
+                        <br>お茶券……一般：450円、在校生：400円
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="exo-wrap">
+                    <img src="../../images/sei.jpg" height="100" width="100" class="box-m">
+                    <div><span>書画展　　図書館</span>
+                        <br>東大寺塔頭の書画や菁々会会員の作品を展示しております。また、塔頭の作品は販売もしております。
+                    </div>
+                </div>
+                <div class="clear"></div>
+
+            </div>
+            <br>
+
+
+        </div>
+        <div class="footer">東大寺学園　第52回菁々祭PRパート</div>
+    </div>
+    <script src="https://use.typekit.net/ttn6dyi.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+</body>
+
+</html>

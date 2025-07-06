@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <LINK REL="SHORTCUT ICON" HREF="../../images/fabi.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>物理　レポート</title>
+    <meta name="keywords" content="菁々祭,東大寺学園,文化祭,東大寺,52,釆氏の会" />
+    <meta name="description" content="振り子の実験。">
+    <script src="../../js/jquery-2.2.2.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../../js/jquery.center.js"></script>
+    <script type="text/javascript" src="../../js/html5shiv-master/src/html5shiv.js"></script>
+    <script type="text/javascript" src="../../js/velocity.min.js"></script>
+    <script type="text/javascript" src="../../js/scrollInFunc.js"></script>
+    <script type="text/javascript" src="../../js/jquery.onepage-scroll.min.js"></script>
+    <script type="text/javascript" src="modernizr.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/onepage-scroll.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, maximum-scale=1.0, user-scalable=yes">
+    <script>
+        $(document).ready(function () {
+            $(".wrapper").onepage_scroll({
+                sectionContainer: "section", // sectionContainer accepts any kind of selector in case you don't want to use section
+                easing: "ease", // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
+                // "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
+                animationTime: 1000, // AnimationTime let you define how long each section takes to animate
+                pagination: true, // You can either show or hide the pagination. Toggle true for show, false for hide.
+                updateURL: true, // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
+                beforeMove: function (index) {
+                    /*if ($("body").hasClass("viewing-page-2")) {
+                        $(".target1").addClass('fade-left');
+                        $(".target2").addClass('fade-right');
+
+                    } else {
+                        $(".target1").removeClass('fade-left');
+                        $(".target2").removeClass('fade-right');
+                    }*/
+                    if ($("body").hasClass("viewing-page-2")) {
+                        $(".target3").addClass('fadein');
+                    } else {
+                        $(".target3").removeClass('fadein');
+                    }
+                    if ($("body").hasClass("viewing-page-3")) {
+                        $(".target4").addClass('fade-up');
+                        $(".target5").addClass('fade-down');
+                    } else {
+                        $(".target4").removeClass('fade-up');
+                        $(".target5").removeClass('fade-down');
+                    }
+                    if ($("body").hasClass("viewing-page-4")) {
+                        $(".target6").addClass('fade-left');
+                    } else {
+                        $(".target6").removeClass('fade-left');
+                    }
+                }, // This option accepts a callback function. The function will be called before the page moves.
+                afterMove: function (index) {
+
+                }, // This option accepts a callback function. The function will be called after the page moves.
+                loop: false, // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
+                keyboard: true, // You can activate the keyboard controls
+                responsiveFallback: false, // You can fallback to normal page scroll by defining the width of the browser in which
+                // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
+                // the browser's width is less than 600, the fallback will kick in.
+                direction: "vertical" // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
+            });
+
+            $("h1").center({
+                vertical: false
+            });
+
+
+
+        });
+    </script>
+    <script>
+        $(function () {
+            var width = $('.name').width();
+            width = 0 - width / 2;
+            $(".name").css("margin-left", width);
+
+        });
+    </script>
+    <script>
+        var _ua = (function (u) {
+            return {
+                Tablet: (u.indexOf("windows") != -1 && u.indexOf("touch") != -1 && u.indexOf("tablet pc") == -1) || u.indexOf("ipad") != -1 || (u.indexOf("android") != -1 && u.indexOf("mobile") == -1) || (u.indexOf("firefox") != -1 && u.indexOf("tablet") != -1) || u.indexOf("kindle") != -1 || u.indexOf("silk") != -1 || u.indexOf("playbook") != -1,
+                Mobile: (u.indexOf("windows") != -1 && u.indexOf("phone") != -1) || u.indexOf("iphone") != -1 || u.indexOf("ipod") != -1 || (u.indexOf("android") != -1 && u.indexOf("mobile") != -1) || (u.indexOf("firefox") != -1 && u.indexOf("mobile") != -1) || u.indexOf("blackberry") != -1
+            }
+        })(window.navigator.userAgent.toLowerCase());
+        if (_ua.Mobile || _ua.Tablet) {
+            alert("パソコン推奨!")
+        } else {
+            alert("最新のブラウザ&ウィンドウ最大を推奨!")
+        }
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="top base">
+            <h1>様々な環境における重力加速度の変化<br><small>（7月14日更新）</small></h1>
+            <p class="name"><span>5年C組14番玄田貴之</span>　　<span>5年C組20番中尾友彦</span></p>
+            <p class="page">1</p>
+            <div class="ma"><span></span>Scroll</div>
+        </section>
+
+        <!-- <section class="index base">
+            <h2>目次</h2>
+            <div class="target1 op0">
+                <ul>
+                    <li>トップ</li>
+                    <li>目次</li>
+
+                    <li><a href="#3">概要   </a></li>
+
+                    <li>実験1</li>
+                    <li>理論1</li>
+                    <li>実験動画1</li>
+                </ul>
+            </div>
+            <div class="target2 op0">
+                <li>表</li>
+                <li>考察1</li>
+                <li>実験2</li>
+                <li>実験動画2</li>
+                <li>考察2</li>
+                <li>感想・まとめ</li>
+
+            </div>
+        </section>
+-->
+        <section class="about base">
+
+            <h2>概要</h2>
+            <div class="target3 op0">
+                <br>
+                <p>実験目的
+                    <br>単振り子を用いて、重力加速度が環境によって変化することを確認する
+                    <br>
+                    <br>単振り子で重力加速度を測定（航空機内・北海道各所・兵庫県伊丹市）
+                    <br>（航空機内は進行方向と垂直な面で振り子を振らせ、離陸時、水平飛行時、着陸時に計測）
+
+                </p>
+
+                <p>使用器具
+                    <br>　おもり1（ワッシャー）、おもり2（ナット）、調理用糸、ストップウォッチ、ノギス、マスキングテープ、カメラ1（E-M5）、カメラ2（K-3）、カメラ3（TZ-60）、カメラ4（SX280HS）、スマートフォン、パソコン、GPS ユニット、メジャー（2ｍ以上）
+                    <br>※おもり1 は振り子に、おもり２は垂直を示す必要がある際に用いる。
+                </p>
+            </div>
+            <p class="page">2</p>
+
+        </section>
+
+        <section class="ex1 base">
+
+            <h2>実験</h2>
+
+            <div class="target4 op0">
+                <ol>実験方法
+                    <li>対象場所で振り子を5°以下で振らせ、横、上の2 アングルから動画を撮影し、また離陸時に関しては、可能ならば水平に保ったカメラで外の様子を撮影する。
+                    </li>
+                    <li>振り子が10 往復する時間を、パソコンの動画再生ソフト『MPC-HC』で対象フレーム間の時間を測定することにより計測。
+                        <br>（Ctrl+G で表示される）
+                    </li>
+                    <li>「g=(4lπ^2)/T^2」を用いて計算。
+                    </li>
+                    <li>スマートフォンのアプリ『CPU-Z』で計測・記録（画面キャプチャ）した重力加速度と比較。（一部）
+                    </li>
+                    <li>「g=GM/(R+h)^2-(ω^2)(R+h)cos(θ)」（h は標高、θは北緯）と比較。
+                    </li>
+                </ol>
+
+            </div>
+
+            <div class="box target5 op0">
+                <ul>実験場所
+                    <li>航空機内・北海道各所・兵庫県伊丹市</li>
+                </ul>
+                <ul>日時
+                    <li>7月3日（日）・4日（月）にかけて</li>
+                </ul>
+            </div>
+            <div>
+
+            </div>
+            <p class="page">3</p>
+
+        </section>
+
+        <section class="theory1 base">
+            <h2>理論</h2>
+
+            <br>
+            <div class="target6 op0">
+                <p>単振り子の周期の公式 "T=2π√l/g" より
+                    <br>両辺を二乗して変形すると
+                    <br>g=(4lπ^2)/T^2
+                    <br>
+
+                    <br>また万有引力の公式 "mg=GMm/R^2" より
+                    <br> mRω^2cosθ=mg=GMm/R^2
+                    <br>
+                    <br>緯度、高度を考慮した場合
+                    <br>mg=G Mm/(R+h)^2 -mω^2 (R+h)cosθ（θは北緯、hは高度）
+                    <br>変形して
+                    <br>g=G M/(R+h)^2 -ω^2 (R+h)cosθ
+                </p>
+            </div>
+            <p class="page">4</p>
+
+        </section>
+
+        <section class="movie base">
+
+            <h2>実験動画1・2</h2>
+
+            <div class="you">
+                <h3>兵庫県伊丹市</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zu_LzAu4TfM" frameborder="0" allowfullscreen></iframe>
+
+            </div>
+
+            <div class="box you">
+                <h3>北海道利尻町</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Lrr-xLbGcU4" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div>
+
+            </div>
+            <p>※動画は1080 60pでの再生推奨</p>
+            <p class="page">5</p>
+
+        </section>
+        <section class="movie base">
+            <h2>実験動画3・4</h2>
+
+            <div class="you">
+                <h3>新潟県佐渡島沖</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7BC-WAADB94" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <div class="box you">
+                <h3>伊丹空港離陸時（失敗）</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dPl_wxIEvdo" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div>
+
+            </div>
+            <p>※動画は1080 60pでの再生推奨</p>
+            <p class="page">6</p>
+
+        </section>
+        <section class="table base">
+            <h2>表</h2>
+            <a href="img/report.svg" target="_blank"><img src="img/report.svg" alt="table1" class="svg"></a>
+            <a href="img/report.png" target="_blank"><img src="img/report.png" alt="table2" class="jpg"></a>
+            <p class="page">7</p>
+
+        </section>
+
+        <section class="view base">
+            <h2>考察</h2>
+            <ul>
+                <li>高度や緯度の違いによって重力加速度は異なる。</li>
+                <li>高度が高ければ重力加速度は小さくなる。</li>
+                <li>緯度が高ければ重力加速度は大きくなる。</li>
+                <li>すべての実験において誤差が1.8%台であるのは、共通する誤差の要因があるためと考えられる。その誤差の原因として挙げられるのは、1.糸が短く、糸の計測誤差に影響されやすい、2.おもりが球形でない、などがある。</li>
+                <li>追記　つりさげてすぐ…1.026m
+                    <br>　　　つりさげて5時間後…1.032m
+                    <br>→凧糸は長さが変化しやすいため、毎回長さを計測すべきだった。
+                    <br>→<a href="img/IMG_0284.jpg" target="_blank">参考写真</a>
+                </li>
+            </ul>
+            <p>エクセルデータダウンロードはこちら</p>
+            <a href="report.xlsx">
+                <p><i class="fa fa-file-excel-o" aria-hidden="true"></i>　report.xlsx(12KB)</p>
+            </a>
+            <p class="page">8</p>
+
+        </section>
+
+        <section class="imp base">
+            <h2>感想</h2>
+            <br>
+            <div>
+                <ul>
+                    <li>誤差が1.8%と小さく実験は成功したと思う。</li>
+                    <li>離陸時、長さ1mでは座席に当たってしまい測定できなかった。誤差覚悟で少し短くして測ってもよかったかもしれない。</li>
+                    <li>飛行機の進行方向の加速度がだいたい3.5~4.0(m/s^2)程度だと分かり面白い。値は不正確だが連続して見れるのでスマホの加速度センサーもなかなか役立った。</li>
+                    <li>すべての場所で誤差が1.8%台であり、原因は共通であると考えられ、測定の精度は高いと思う。</li>
+                    <li>飛行機内という測定しづらい環境での実験だったが思っていたより誤差が少なくてよかった。</li>
+                    （玄田） </ul>
+            </div>
+
+            <div class="box">
+                <ul>
+                    <li>若干値は大きめなものの、値の大小関係は予想通りに現れたため、まあ成功といえる気がする。</li>
+                    <li>離陸時に思っていたより進行方向の加速度により傾いてしまい、計測できなかったのが残念。ただ、離陸時のスマホ画面の「Gravity」が結構下がっているのは興味深い。</li>
+                    <li>着陸時にやっても良かったかもしれない。</li>
+                    <li>いまいち誤差の原因がはっきりしない。</li>
+                    <li>いつもは時間を持て余し気味の航空機内での時間がこの実験によって有意義に使えてよかった。</li>
+                    <li>離陸時に窓外の風景を撮った際はカメラ内水準器に従って水平を保っていたのだが、明らかに傾いてしまっているのは 離陸時の加速度のせいであると考えられる。
+                    </li>（中尾）
+                </ul>
+            </div>
+            <div>
+
+            </div>
+            <p class="page">9</p>
+
+        </section>
+        <section class="omake base">
+            <h2>おまけ動画</h2>
+            <br>
+            <p>飛行機内で揺れが激しかったときの加速度センサーのキャプチャー</p>
+            <div class="you">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/eHkLgWd6i7Q" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <div class="box you">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bJcZ2HERdQI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div>
+
+            </div>
+            <p class="page">10</p>
+        </section>
+
+    </div>
+
+    <script src="https://use.typekit.net/ttn6dyi.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+</body>
+
+</html>

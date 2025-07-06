@@ -1,0 +1,782 @@
+body {
+    margin: 0px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1, h2, p {
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header {
+    background-color: #ffffff;
+}
+
+.menu {
+    float: right;
+}
+
+#building_head {
+    background-image: url(../images/schoolmap@6x.png);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#building_info {
+    background-image: url(../images/colum_mono@6x.png);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#event_head {
+    background-image: url(../images/schedule.png);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#event_info {
+    background-image: url(../images/event@6x.png);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#bazaar_map {
+    background-image: url(../images/schoolmap@6x.png);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#bazaar_ticket {
+    background-image: url(../images/sibi.png);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#bazaar_shop {
+    background-image: url(../images/bazzaar@6x.png);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.navi {
+    float: left;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.navi a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.navi_twitter {
+    float: left;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.hover_menu {
+    background-color: #ff6666;
+    border-radius: 10px;
+}
+
+.white-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.white-box a {
+    border-radius: 10px;
+}
+
+.contents-head {
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 10px;
+}
+
+.contents {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contents a {
+    text-decoration: none;
+    color: #ee82ee;
+}
+
+.contents-title span {
+    vertical-align: super;
+}
+
+.contents-title h1 {
+    margin: 10px;
+}
+
+.contents-box {
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 10px;
+}
+
+.footer-links {
+    margin: auto;
+}
+
+.footer-link {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.footer-link a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    margin: auto;
+}
+
+.copyright p {
+    color: #ffffff;
+}
+
+@media screen and (min-width: 1081px) {
+    body {
+        font-size: 21px;
+        background-image: url(../images/background.png);
+    }
+    
+    #nav-drawer {
+        display: none;
+    }
+    
+    .header {
+        margin-top: 10px;
+        width: 1000px;
+        height: 100px;
+        border-radius: 50px;
+        margin-right: calc((100% - 1000px) / 2);
+        margin-left: calc((100% - 1000px) / 2);
+        border: 1px solid #999999;
+        position: fixed;
+    }
+    
+    .logo-icon {
+        height: 80px;
+        margin: 10px 20px 10px 80px;
+        float: left;
+    }
+    
+    .navi {
+        height: 70px;
+        width: 100px;
+        margin: 15px auto;
+    }
+    
+    .navi a {
+        height: 70px;
+        width: 100px;
+        margin: 0px;
+        display: block;
+        text-align: center;
+        line-height: 40px;
+    }
+    
+    .hover_menu {
+        display: none;
+    }
+    
+    .navi a:hover + .hover_menu , .hover_menu:hover{
+        display: block;
+        height: 300px;
+        width: 1000px;
+        margin-top: 5px;
+    }
+    
+    .left-side {
+        margin-top: 0px;
+        width: 250px;
+        float: left;
+    }
+    
+    .left-side p {
+        color: #ffffff;
+    }
+    
+    .hover_title , .hover_description{
+        height: 100px;
+        padding-top: 30px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    
+    .hover_title {
+        border-bottom: 1px solid #999999;
+    }
+    
+    #building {
+        margin-left: -560px;
+    }
+    
+    #event {
+        margin-left: -670px;
+    }
+    
+    #bazaar {
+        margin-left: -780px;
+    }
+    
+    .right-side {
+        float: right;
+        width: auto;
+    }
+    
+    .white-box {
+        width: 200px;
+        height: 200px;
+        float: right;
+        margin-top: 50px;
+        margin-right: 35px;
+        padding: 0px;
+    }
+    
+    .white-box a {
+        display: block;
+        width: 200px;
+        height: 200px;
+        line-height: 50px;
+        font-size: 30px;
+        color: #ee82ee;
+        transition: all 0.2s ease;
+    }
+    
+    .white-box a:hover {
+        background-color: #ee82ee;
+        color: #ffffff;
+        transition: all 0.2s ease;
+    }
+    
+    .navi_twitter {
+        height: 70px;
+        width: 100px;
+        margin: 15px auto;
+    }
+    
+    .twitter-icon {
+        width: 50px;
+        padding: 10px;
+    }
+    
+    .contents {
+        width: 960px;
+        padding-top: 120px;
+    }
+    
+    .contents-head {
+        margin-top: 30px;
+        margin-bottom: -10px;
+        width: 300px;
+        height: 80px;
+    }
+    
+    .contents-title {
+        margin-left: 30px;
+    }
+    
+    .contents-title img {
+        height: 60px;
+        margin-right: 20px;
+    }
+    
+    .contents-title span {
+        font-size: 40px;
+    }
+    
+    .contents-box {
+        margin: 50px 0px;
+        height: 560px;
+    }
+    
+    .contents-box h2 {
+        font-size: 24px;
+    }
+    
+    .contents-box p {
+        font-size: 20px;
+    }
+    
+    .description {
+        padding: 0px 50px;
+    }
+    
+    .name {
+        width: 200px;
+    }
+    
+    .sns {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .footer-links {
+        width: 960px;
+    }
+    
+    .footer-link {
+        margin: 9px;
+        width: 300px;
+        padding: 5px 0px;
+        float: left;
+    }
+    
+    .copyright {
+        padding-top: 50px;
+        width: 960px;
+    }
+    
+    .copyright p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 601px) {
+    body {
+        font-size: 2vw;
+        background-image: url(../images/background.png);
+    }
+    
+    #nav-drawer {
+        display: none;
+    }
+    
+    .header {
+        margin-top: 10px;
+        width: 90%;
+        border-radius: 50px;
+        margin-right: 5%;
+        margin-left: 5%;
+        border: 1px solid #999999;
+        position: fixed;
+    }
+    
+    .logo-icon {
+        height: calc(100vw * (80 / 1080));
+        margin: calc(100vw * (10 / 1080)) calc(100vw * (20 / 1080)) calc(100vw * (10 / 1080)) calc(100vw * (80 / 1080));
+        float: left;
+    }
+    
+    .navi {
+        height: calc(100vw * (70 / 1080));
+        width: calc(100vw * (100 / 1080));
+        margin: calc(100vw * (15 / 1080)) auto;
+    }
+    
+    .navi a {
+        height: calc(100vw * (80 / 1080));
+        width: calc(100vw * (100 / 1080));
+        margin: 0px;
+        display: block;
+        text-align: center;
+        line-height: calc(100vw * (40 / 1080));
+    }
+    
+    .hover_menu {
+        display: none;
+    }
+    
+    .navi a:hover + .hover_menu , .hover_menu:hover{
+        display: block;
+        height: calc(100vw * (300 / 1080));
+        width: 90vw;
+        margin-top: calc(100vw * (5 / 1080));
+    }
+    
+    .left-side {
+        margin-top: 0px;
+        width: 22.5vw;
+        float: left;
+    }
+    
+    .left-side p {
+        color: #ffffff;
+    }
+    
+    .hover_title , .hover_description{
+        height: calc(100vw * (100 / 1080));
+        padding-top: calc(100vw * (30 / 1080));
+        text-align: center;
+        margin-top: 0px;
+    }
+    
+    .hover_title {
+        border-bottom: 1px solid #999999;
+    }
+    
+    #building {
+        margin-left: calc(100vw * (-560 / 1080));
+    }
+    
+    #event {
+        margin-left: calc(100vw * (-670 / 1080));
+    }
+    
+    #bazaar {
+        margin-left: calc(100vw * (-780 / 1080));
+    }
+    
+    .right-side {
+        float: right;
+        width: auto;
+    }
+    
+    .white-box {
+        width: calc(100vw * (200 / 1080));
+        height: calc(100vw * (200 / 1080));
+        float: right;
+        margin-top: calc(100vw * (50 / 1080));
+        margin-right: calc(100vw * (35 / 1080));
+        padding: 0px;
+    }
+    
+    .white-box a {
+        display: block;
+        width: calc(100vw * (200 / 1080));
+        height: calc(100vw * (200 / 1080));
+        line-height: calc(100vw * (50 / 1080));
+        font-size: calc(100vw * (20 / 1080));
+        color: #ee82ee;
+        transition: all 0.2s ease;
+    }
+    
+    .white-box a:hover {
+        background-color: #ee82ee;
+        color: #ffffff;
+        transition: all 0.2s ease;
+    }
+    
+    .twitter-icon {
+        width: calc(100vw * (50 / 1080));
+        padding: calc(100vw * (10 / 1080));
+    }
+    
+    .contents {
+        padding-top: calc(100vw * (120 / 1080));
+        width: 90%;
+    }
+    
+    .contents-head {
+        margin-top: calc(100vw * (30 / 1080));
+        margin-bottom: calc(100vw * (-10 / 1080));
+        width: calc(100vw * (300 / 1080));
+        height: calc(100vw * (80 / 1080));
+    }
+    
+    .contents-title {
+        margin-left: calc(100vw * (30 / 1080));
+    }
+    
+    .contents-title img {
+        height: calc(100vw * (60 / 1080));
+        margin-top: 0px;
+        margin-right: calc(100vw * (20 / 1080));
+    }
+    
+    .contents-title span {
+        font-size: calc(100vw * (40 / 1080));
+    }
+    
+    .contents-box {
+        margin: calc(100vw * (50 / 1080)) 0px;
+        height: calc(100vw * (560 / 1080));
+    }
+    
+    .contents-box h2 {
+        font-size: calc(100vw * (24 / 1080));
+    }
+    
+    .contents-box p {
+        font-size: calc(100vw * (20 / 1080));
+    }
+    
+    .description {
+        padding: 0px calc(100vw * (50 / 1080));
+    }
+    
+    .description p {
+        font-size: calc(100vw * (20 / 1080));
+    }
+    
+    .description {
+        padding: 0px calc(100vw * (50 / 1080));
+    }
+    
+    .name {
+        width: calc(100vw * (200 / 1080));
+    }
+    
+    .sns {
+        width: calc(100vw * (40 / 1080));
+    }
+    
+    .footer-links {
+        width: 960px;
+    }
+    
+    .footer-links {
+        width: 90%;
+    }
+    
+    .footer-link {
+        padding: calc(100vw * (5 / 1080)) 0px;
+        margin: calc(100vw * (10 / 1080)) 10px;
+        width: calc(100vw * (320 / 1080) - 25px);
+        float: left;
+    }
+    
+    .copyright {
+        padding-top: calc(100vw * (60 / 1080));
+        width: 90%;
+    }
+    
+    .copyright p {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 3vw;
+        background-image: url(../images/background_smartphone.png);
+    }
+    
+    #title {
+        font-size: 4.5vw;
+    }
+    
+    .header {
+        height: calc(100vw * (100 / 600));
+        width: 100%;
+        border-bottom: 1px solid #999999;
+        position: fixed;
+    }
+    
+    .menu {
+        display: none;
+    }
+    
+    .nav-icon {
+        height: 20px;
+        float: right;
+        margin-top: 4vw;
+        margin-right: 4vw;
+    }
+    
+    #nav-drawer {
+        
+    }
+
+    /*チェックボックス等は非表示に*/
+    .nav-unshown {
+        display:none;
+    }
+    
+    /*アイコンのスペース*/
+    #nav-open {
+        display: inline-block;
+        width: 60px;
+        height: 44px;
+        vertical-align: middle;
+    }
+
+    /*ハンバーガーアイコンをCSSだけで表現*/
+    #nav-open span, #nav-open span:before, #nav-open span:after {
+        position: absolute;
+        height: 6px;/*線の太さ*/
+        margin-top: 10px;
+        width: 50px;/*長さ*/
+        border-radius: 6px;
+        background: #555;
+        display: block;
+        content: '';
+        cursor: pointer;
+    }
+    
+    #nav-open span:before {
+        bottom: -8px;
+    }
+    #nav-open span:after {
+        bottom: -16px;
+    }
+
+    /*閉じる用の薄黒カバー*/
+    #nav-close {
+        display: none;/*はじめは隠しておく*/
+        position: fixed;
+        z-index: 99;
+        top: 0;/*全体に広がるように*/
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: black;
+        opacity: 0;
+        transition: .3s ease-in-out;
+    }
+
+    /*中身*/
+    #nav-content {
+        overflow: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;/*最前面に*/
+        width: 50%;/*右側に隙間を作る（閉じるカバーを表示）*/
+        /* max-width: 330px;最大幅（調整してください）*/
+        height: 100%;
+        background: #ddffff;/*背景色*/
+        transition: .3s ease-in-out;/*滑らかに表示*/
+        -webkit-transform: translateX(200%);
+        transform: translateX(200%);/*左に隠しておく*/
+    }
+
+    /*チェックが入ったらもろもろ表示*/
+    #nav-input:checked ~ #nav-close {
+        display: block;/*カバーを表示*/
+        opacity: .5;
+    }
+
+    #nav-input:checked ~ #nav-content {
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);/*中身を表示（右へスライド）*/
+        box-shadow: 6px 0 25px rgba(0,0,0,.15);
+    }
+    
+    .logo-icon {
+        height: calc(100vw * (100 / 600));
+        float: left;
+    }
+    
+    #logo-headicon {
+        margin: 0px calc(100vw * (20 / 600)) 0px calc(100vw * (40 / 600));
+    }
+    
+    .navi {
+        height: calc(100vw * (70 / 600));
+        width: calc(100vw * (80 / 600));
+        margin: calc(100vw * (15 / 600)) auto;
+    }
+    
+    .navi a {
+        font-size: 0px;
+    }
+    
+    .twitter-icon {
+        width: 0px;
+    }
+    
+    .nav-menu {
+        height: calc(100vw * (100 / 600));
+        border-bottom: calc(100vw * (1 / 600)) solid #000000;
+    }
+    
+    .nav-menu a {
+        display: block;
+        font-size: calc(100vw * (30 / 600));
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 10%;
+        color: #000000;
+        text-decoration: none;
+        line-height: calc(100vw * (100 / 600));
+        padding: 0px;
+        width: 90%;
+        height: calc(100vw * (100 / 600));
+    }
+    
+    #nav-div {
+        border: calc(100vw * (1 / 600)) solid #ffffff;
+    }
+    
+    .contents {
+        padding-top: calc(100vw * (120 / 600));
+        width: 90%;
+    }
+    
+    .contents-head {
+        margin-top: calc(100vw * (30 / 1080));
+        margin-bottom: calc(100vw * (-10 / 1080));
+        width: calc(100vw * (400 / 1080));
+        height: calc(100vw * (150 / 1080));
+    }
+    
+    .contents-title {
+        margin-left: calc(100vw * (30 / 1080));
+    }
+    
+    .contents-title img {
+        height: calc(100vw * (120 / 1080));
+        margin-top: 0px;
+        margin-right: calc(100vw * (20 / 1080));
+    }
+    
+    .contents-title span {
+        font-size: calc(100vw * (80 / 1080));
+    }
+    
+    .contents-box {
+        margin: calc(100vw * (20 / 600)) 0px;
+        height: calc(100vw * (700 / 600));
+    }
+    
+    .contents-box h2 {
+        font-size: calc(100vw * (30 / 600));
+    }
+    
+    .contents-box p {
+        font-size: calc(100vw * (15 / 600));
+    }
+    
+    .description {
+        padding: 0px 50px;
+    }
+    
+    .description p {
+        font-size: 3.5vw;
+    }
+    
+    .name {
+        width: calc(100vw * (200 / 1080));
+    }
+    
+    .sns {
+        width: calc(100vw * (40 / 1080));
+    }
+    
+    .footer-links {
+        width: 90%;
+    }
+    
+    .footer-link {
+        padding: calc(100vw * (10 / 1080)) 0px;
+        margin: calc(100vw * (10 / 1080)) 0px;
+        text-align: center;
+        width: 100%;
+        float: left;
+    }
+    
+    .copyright {
+        width: 90%;
+        padding-top: calc(100vw * (250 / 1080));
+    }
+    
+    .copyright p {
+        font-size: 1.5vw;
+    }
+}

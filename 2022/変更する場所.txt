@@ -1,0 +1,43 @@
+
+
+英語でのパート名称表
+
+PR pr
+校舎統括 management
+装飾 decoration
+会計 accounting
+イベント event
+バザー bazaar
+
+
+1. 『/part-recruit/〇〇.html』内(済)
+<head> 
+	<title>パートの選び方-〇〇パート</title>
+		各パートに変更
+	<link rel="stylesheet" href="/part-recruit/style/graph/〇〇.css">
+		各パート(英語)に変更
+
+<body>
+	<div class = "part_individual">
+
+		基本的に日本語のところは各パートに沿った形で変更します（←これがこの業務で一番メイン）
+
+		※注意
+		・連絡先内の<a href="maito:～～～～～">となっている部分を変更するのを忘れないように
+		・セクションが増える場合はコピペで増やして対処
+			その場合の注意：
+				<div class="individual_section section03" id="section03">の数字を変える
+				<h2 class="en_heavy">Section 04</h2>の数字を変える
+		・セクションが減る場合はそのdiv要素ごと削除して対処
+				
+
+		
+
+
+
+2. 『/part-recruit/style/graph/〇〇.css』内(済)
+	ここには各パートのグラフの数値が記述してあります。
+
+	例：2個目のセクションの3個目のグラフの数値の場合
+	        --bar_cahrt_2_3: ××%;
+		の値を調整する。(アンケートの段階では10段階で募集していますので10倍して%をつければOK)

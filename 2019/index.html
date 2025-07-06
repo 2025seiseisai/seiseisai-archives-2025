@@ -1,0 +1,273 @@
+<html lang="ja">
+    
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<meta charset="utf-8"> 
+<link rel="stylesheet" href="index.css">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+<meta http-equiv="content-type" charset="utf-8">
+<meta name="keywords" content="東大寺,東大寺学園,tdj,文化祭,菁々祭,sailing,2019">
+<meta name="description" content="東大寺学園文化祭「菁々祭(せいせいさい)」公式サイト。第55回菁々祭は2019年9/7(土),8(日)に開催されます。イベントや展示、バザーなど菁々祭に関する様々な情報をお届けします！">
+<link rel="shortcut icon" href="favicon.ico">
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141606085-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141606085-1');
+</script>
+    
+<title>東大寺学園文化祭「菁々祭」</title>
+
+<meta property="og:title" content="東大寺学園文化祭「菁々祭」" />
+
+<meta property="og:url" content="https://seiseisai.com" />
+
+<meta property="og:image" content="https://seiseisai.com/twcard.jpg" />
+
+<meta property="og:description" content="東大寺学園文化祭「菁々祭(せいせいさい)」公式サイト。第55回菁々祭は2019年9/7(土)、8(日)に開催されます。イベントや展示、バザーなど菁々祭に関する様々な情報をお届けします！" />    
+
+<meta property="og:type" content="website" />
+
+<meta property="og:site_name" content="東大寺学園文化祭「菁々祭」" />
+    
+<meta name="twitter:card" content="summary_large_image" />
+    
+<meta name="twitter:site" content="@seiseisai_tdj" />
+
+</head>
+    
+<body onload="draw()" onresize="draw()">
+    <img src="cover_web.jpg" id="poster">
+    <img src="cover_mobile.jpg" id="mposter">
+    
+    <img src="scroll_gif_whitel.gif" id="point">
+    
+    <div id="notification">
+    <div id="osirase" class="letters">お知らせ</div>
+    <img src="news@6x.png" alt="お知らせ" id="inotification">
+    <div id="by">菁々祭</div>
+        <div id="termDay"></div>
+        <div id="day"><span>ご来場ありがとうございました</span></div>
+    <div id="koushin">更新情報</div>
+        <div id="bupdate">
+            <div id="koushin3"><a href="column"><span><b>コラム</b></span></a>を更新しました！</div>
+            <div id="dkoushin3">9/05</div>
+            <div id="lkoushin3"></div>
+            <div id="koushin1"><a href="goods"><span><b>販売案内</b></span></a>を更新しました！</div>
+            <div id="dkoushin1">9/03</div>
+            <div id="lkoushin1"></div>
+            <div id="koushin2"><a href="kounai"><span><b>校内案内</b></span></a>を更新しました！</div>
+            <div id="dkoushin2">8/31</div>
+            <div id="lkoushin2"></div>
+            <div id="koushin4"><a href="event"><span><b>イベント</b></span></a>を更新しました！</div>
+            <div id="dkoushin4">8/21</div>
+            <div id="lkoushin4"></div>
+            <div id="koushin5"><a href="https://seiseisai.com"><span><b>ホーム</b></span></a>を更新しました！</div>
+            <div id="dkoushin5">6/20</div>
+            <div id="lkoushin5"></div>
+            <div id="koushin6"><a href="about"><span><b>菁々祭について</b></span></a>を更新しました！</div>
+            <div id="dkoushin6">6/20</div>
+            <div id="lkoushin6"></div>
+        </div>
+    </div>
+    
+    <div id="about">
+    <img src="about@6x.png" alt="菁々祭について" id="iabout">
+    <div id="aboutseiseisai">菁々祭について</div>
+    <form action="about"><input type="image" src="logo@6x.png"  alt="ロゴ" id="logo" onclick="click()"></form>
+    <div id="elogo"><a href="about" class="moji">菁々祭とは</a></div>
+    <div id="logosche"></div>
+    <form action="about#about-seisei-third-box"><input type="image" src="schedule@6x.png"  alt="開催日時" id="schedule"></form>
+    <div id="eschedule"><a href="about#about-seisei-third-box" class="moji">開催日時</a></div>
+    <div id="schegree">
+    </div>
+    <form action="about#about-seisei-forth-box"><input type="image" src="greeting@6x.png"  alt="ごあいさつ" id="greeting"></form>
+    <div id="egreeting"><a href="about#about-seisei-forth-box" class="moji">ごあいさつ</a></div>
+    <div id="greebacc"></div>
+    <form action="about#access"><input type="image" src="accsess_1@6x.png" alt="アクセス、ご来場案内" id="baccess"></form>
+    <div id="ebaccess"><a href="about#access" class="moji">&nbsp;&nbsp;アクセス<br>ご来場案内</a></div>
+    </div>
+    
+    <div id="event">
+    <img src="event@6x.png" alt="イベント" id="ievent">
+    <div id="aboutevent">イベント</div>
+    <form action="event#back2"><input type="image" src="timetable@6x.png" alt="タイムテーブル" id="timetable"></form>
+    <div id="etimetable"><a href="" class="moji">タイムテーブル</a></div>
+    <div id="timedeta"></div>
+    <form action="event#back3"><input type="image" src="detail@6x.png" alt="イベント紹介" id="detail"></form>
+    <div id="edetail"><a href="" class="moji">イベント紹介</a></div>
+    </div>
+    
+    <div id="schoolinfo">
+    <img src="schoolinfo@6x.png" alt="校内案内" id="ischoolinfo">
+    <div id="kounai">校内案内</div>
+    <form action="kounai#box2"><input type="image" src="schoolmap@6x.png" alt="校内図" id="schoolmap"></form>
+    <div id="eschoolmap"><a href="" class="moji">校内図</a></div>
+    <div id="schoperf">
+    </div>
+    <form action="kounai#box3"><input type="image" src="detail@6x.png" alt="展示紹介" id="performance"></form>
+    <div id="eperformance"><a href="" class="moji">展示紹介</a></div>
+    </div>
+    
+    <div id="hanbai">
+    <img src="sales@6x.png" alt="販売について" id="igoods">
+    <div id="abouthanbai">販売案内</div>
+    <form action="goods#box2"><input type="image" src="goods@6x.png" alt="グッズ" id="goods"></form>
+    <div id="egoods"><a href="goods#box2" class="moji">グッズ</a></div>
+    <div id="goodbaza"></div>
+    <form action="goods#box3"><input type="image" src="bazzaar@6x.png" alt="バザー" id="bazaar"></form>
+    <div id="ebazaar"><a href="goods#box3" class="moji">バザー</a></div>
+    </div>
+    
+    <div id="column">
+    <img src="colum@6x.png" alt="コラム" id="icolumn">
+    <div id="aboutcolumn">コラム</div>
+    <div id="ecolumn">当日校内を彩る装飾や、イベント特集、文化祭運営・準備の様子など菁々祭の様々な裏側をご紹介いたします</div>
+    <form action="column"><input type="image" src="yajirushi.png" alt="コラム" id="pcolumn"></form>
+    </div>
+    
+    <div id="access">
+    <img src="accsess@6x.png" alt="アクセス＆ご来場案内" id="iaccess">
+    <div id="goraijyou">アクセス＆ご来場案内</div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11687.237167385269!2d135.7817934698671!3d34.71475597896285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60013c8734fc9973%3A0x55c23a5ae3354ec9!2z5p2x5aSn5a-65a2m5ZyS5Lit5a2m5qCh44O76auY562J5a2m5qCh!5e0!3m2!1sja!2sjp!4v1553338996447" frameborder="0" style="border:0" allowfullscreen id="map"></iframe>
+    <div id="undermap">アクセス</div>
+    <div id="eundermap">最寄り駅の近鉄高の原駅から<br>徒歩約25分、バス利用で約7分<br>高の原駅～当校間で15分間隔でバス(片道大人210円)が出ております。是非ご利用ください。</div>
+    <img src="rosennzu.png" id="rosenzu">
+    <div id="overcheck1">ご来場案内</div>
+    <img src="about@6x.png" alt="チェック" id="check1">
+    <div id="echeck1">公共交通機関をご利用ください</div>
+    <div id="excheck1">高の原駅周辺にはございますが、校内に駐車場・駐輪場はありません。<br>お車・自転車でのご来場はご遠慮ください。<br>ご来場の際は、電車やバスなどの公共交通機関をお利用いただきますようお願いいたします。</div>
+    <img src="about@6x.png" alt="チェック" id="check2">
+    <div id="echeck2">ご来場者カードについて</div>
+    <div id="excheck2">入場は自由ですが、ご来場の方全員に保安上のため入口にてご来場者カードのご記入をお願いしております。<br>なお、ご記入いただいた情報は菁々祭当日のセキュリティ確保、及び菁々祭の改善にのみ利用します。<br>ご協力お願いいたします。</div>
+    <img src="about@6x.png" alt="チェック" id="check3">
+    <div id="echeck3">校内について</div>
+    <div id="excheck3">学校敷地内は全面禁煙です。ご協力をお願いします。<br>お酒類の持ち込みはお控えください。<br>スリッパはこちらでご用意しておりますので特に必要ありません。</div>
+    </div>
+    
+    <div id="sitabubun">
+    <a href="otoiawase"><form action="otoiawase"><input type="image" src="otoiawase.png" alt="お問い合わせ" id="buotoiawase"></form>
+    <div id="uotoiawase">お問い合わせ</div></a>
+    <a href="privacy-policy"><form action="privacy-policy"><input type="image" src="privacy.png" alt="プライバシー" id="bprivacy"></form>
+    <div id="privacy">プライバシーポリシー</div></a>
+    <a href="link"><form action="link"><input type="image" src="link.png" alt="リンク" id="blink"></form>
+    <div id="link">リンク</div></a>
+    <img src="chosakuken@6x.png" alt="Ⓒ2019東大寺学園文化祭実行委員会" id="tyosakukenn">
+    </div>   
+        
+    <div id="naviblack"></div>
+    
+    <div id="naviback">  
+    
+        <img src="white29@3x.png" alt="ナビ" id="naviimg">
+        
+    <a href=""><div id="navihome">
+    <img src="home@6x.png" alt="home" id="navihomeimg"> 
+        <a href="https://seiseisai.com"><div id="navihomemoji">ホーム</div></a>
+    </div></a>
+        
+    <div id="w1"></div>
+        
+    <div id="naviabout">
+    <img src="about@6x.png" alt="about" id="naviaboutimg">
+    <div id="naviaboutmoji">菁々祭について</div>
+    <div id="upnaviabouttouch"></div>
+    <div id="downnaviabouttouch"></div>
+    <img src="asset4@6x.png" alt="Open" id="upnaviabout">
+    <img src="asset5@6x.png" alt="Close" id="downnaviabout">
+    <a href="about"><img src="logo@6x.png" alt="logo" id="navilogo">
+    <div id="enavilogo" class="cnaviabout">菁々祭とは</div></a>
+    <div id="h1"></div>
+    <a href="about#about-seisei-third-box"><img src="schedule@6x.png" alt="開催日時" id="navischedule">
+    <div id="enavischedule">開催日時</div></a>
+    <div id="h2"></div>
+    <a href="about#about-seisei-forth-box"><img src="greeting@6x.png" alt="ごあいさつ" id="navigreeting">
+    <div id="enavigreeting">ごあいさつ</div></a>
+    <div id="h3"></div>
+    <a href="about#access"><img src="accsess_1@6x.png" alt="アクセス＆ご来場案内" id="naviaccessguide">
+    <div id="enaviaccessguide">&nbsp;&nbsp;アクセス<br>ご来場案内</div></a>
+    </div>
+        
+    <div id="w2"></div>
+        
+    <div id="navievent">
+    <img src="event@6x.png" alt="イベント" id="navieventimg">
+    <div id="navieventmoji">イベント</div>
+    <div id="upnavieventtouch"></div>
+    <div id="downnavieventtouch"></div>
+    <img src="asset4@6x.png" alt="Open" id="upnavievent">
+    <img src="asset5@6x.png" alt="Close" id="downnavievent">
+    <a href="event#back2"><img src="timetable@6x.png" alt="タイムテーブル" id="navitimetable">
+    <div id="enavitimetable">タイムテーブル</div></a>
+    <div id="h4"></div>
+    <a href="event"#back3><img src="detail@6x.png" alt="イベント紹介" id="naviintroevent">
+    <div id="enaviintroevent">イベント紹介</div></a>
+    </div>
+        
+    <div id="w3"></div>
+    
+    <div id="navischoolguide">
+    <img src="schoolinfo@6x.png" alt="校内案内" id="navischoolguideimg">
+    <div id="navischoolguidemoji">校内案内</div>
+    <div id="upnavischoolguidetouch"></div>
+    <div id="downnavischoolguidetouch"></div>
+    <img src="asset4@6x.png" alt="Open" id="upnavischoolguide">
+    <img src="asset5@6x.png" alt="Close" id="downnavischoolguide">
+    <a href="kounai#box2"><img src="schoolmap@6x.png" alt="校内図" id="navischoolmap">
+    <div id="enavischoolmap">校内図</div></a>
+    <div id="h5"></div>
+    <a href="kounai#box3"><img src="detail@6x.png" alt="展示紹介" id="navitenji">
+    <div id="enavitenji">展示紹介</div></a>
+    </div>
+        
+    <div id="w4"></div>
+    
+    <div id="navisales">
+    <img src="sales@6x.png" alt="販売案内" id="navisalesimg">
+    <div id="navisalesmoji">販売案内</div>
+    <div id="upnavisalestouch"></div>
+    <div id="downnavisalestouch"></div>
+    <img src="asset4@6x.png" alt="Open" id="upnavisales">
+    <img src="asset5@6x.png" alt="Close" id="downnavisales">
+    <a href="goods#box2"><img src="goods@6x.png" alt="グッズ" id="navigoods">
+    <div id="enavigoods">グッズ</div></a>
+    <div id="h6"></div>
+    <a href="goods#box3"><img src="bazzaar@6x.png" alt="バザー" id="navibazaar">
+    <div id="enavibazaar">バザー</div></a>
+    </div>
+        
+    <div id="w5"></div>
+    
+    <a href="column"><div id="navicolumn">
+    <img src="colum@6x.png" alt="コラム" id="navicolumnimg">
+    <div id="navicolumnmoji">コラム</div>
+    </div></a>
+    
+    <div id="w6"></div>    
+        
+    <a href="#access"><div id="naviaccess">
+    <img src="accsess@6x.png" alt="アクセス＆ご来場案内" id="naviaccessimg">
+    <div id="naviaccessmoji">アクセス＆ご来場案内</div>
+    </div></a>
+        
+    <div id="w7"></div>    
+        
+    <div id="navisns">
+    <a href="https://twitter.com/seiseisai_tdj" target="_blank"><img src="twitter_icon@2x.png" alt="ツイッター" id="navitwitter"></a>
+    <a href="https://www.facebook.com/seiseisai" target="_blank"><img src="facebook.png" alt="フェイスブック" id="navifacebook"></a>
+    </div>
+    
+    </div>    
+        
+    <div id="navibackground"></div>
+    <img src="asset1@3x.png" alt="navi" id="navi1">
+    <img src="asset2@3x.png" alt="navi" id="navi2">    
+        
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script lang="JavaScript" src="index.js"></script>
+    
+</body>
+    
+</html>

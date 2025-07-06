@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-196219336-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-196219336-1');
+    </script>
+    <!-- Adobe Fonts -->
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'dzk6neq',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+      function scrollChk(){
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+
+          jQuery('.scroll-animation').not('.active').each(function() {
+              var pos = $(this).offset().top;
+
+              if (scroll > pos - windowHeight) {
+                  $(this).addClass("active");
+              }
+          });
+      }
+      $(window).scroll(function (){
+          scrollChk();
+      });
+      $('body').on('touchmove', function() {
+          scrollChk();
+      });
+
+      window.onload = function() {
+        let spinner = document.getElementById('loading');
+        spinner.classList.add('loaded');
+      }
+    </script>
+
+    <meta charset="utf-8">
+    <link rel=stylesheet href="css/loading.css">
+    <link rel=stylesheet href="css/stylesheet.css">
+    <title>東大寺学園文化祭「菁々祭」公式ホームページ</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="keywords" content="東大寺,東大寺学園,tdj,文化祭,菁々祭,あをによし,2021">
+    <meta name="description" content="第57回オンライン菁々祭は、10月9日から11月9日（ただし、10月16日〜23日を除外）に開催されます。展示、イベント等さまざまなコンテンツを取り揃えました。ぜひご覧ください。">
+    <!-- <meta name="description" content="東大寺学園文化祭「菁々祭(せいせいさい)」公式サイト。第57回菁々祭は2021年9月下旬に延期されました。イベントや展示、バザーなど菁々祭に関する様々な情報をお届けします！"> -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- ogp settings -->
+    <meta property="og:url" content="https://seiseisai.com/2021" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="【東大寺学園文化祭】トップページ" />
+    <meta property="og:description" content="第57回オンライン菁々祭は、10月9日から11月9日（ただし、10月16日〜23日を除外）に開催されます。展示、イベント等さまざまなコンテンツを取り揃えました。ぜひご覧ください。" />
+    <!-- <meta property="og:description" content="東大寺学園文化祭「菁々祭(せいせいさい)」公式サイト。第57回菁々祭は2021年9月下旬に延期されました。イベントや展示、バザーなど菁々祭に関する様々な情報をお届けします！" /> -->
+    <meta property="og:site_name" content="東大寺学園文化祭「菁々祭」公式ホームページ" />
+    <meta property="og:image" content="https://seiseisai.com/2021/school.png" />
+    <meta name="twitter:card" content="summary" />
+
+  </head>
+
+  <body>
+
+    <div id="loading">
+      <div id="loading-logo">
+        <img src="nav.svg">
+      </div>
+    </div>
+
+    <header>
+      <div id="title">
+        <h3>第57回</h3>
+        <h1>菁々祭</h1>
+      </div>
+
+      <div id="circle">
+      </div>
+
+      <div id="date">
+        <h2>東大寺学園文化祭</h2>
+        <p>9<span>月</span>24<span>日 金</span><br>
+          9<span>月</span>25<span>日 土</span></p>
+        <!-- <p><br><span>下へスクロール</span></p> -->
+      </div>
+
+      <nav>
+        <input type="checkbox" id="menubutton">
+        <label for="menubutton">
+          <img src="nav.svg">
+          <div></div>
+        </label>
+        <section>
+          <div id="title">
+            <h3>第57回</h3>
+            <h1>菁々祭</h1>
+          </div>
+          <li>
+            <ul class="orange"><a href="index.html">ホーム</a></ul>
+            <ul class="green"><a href="about/about.html">菁々祭について</a></ul>
+            <ul class="pink"><a href="theme/theme.html">テーマ</a></ul>
+            <ul class="orange"><a href="goods/goods.html">グッズ</a></ul>
+            <ul class="green"><a href="exhibition/exhibition.html">校内案内</a></ul>
+            <ul class="pink"><a href="event/event.html">イベント</a></ul>
+            <ul class="orange"><a href="bazaar/bazaar.html">バザー</a></ul>
+            <ul class="green"><a href="blog/blog.html">ブログ</a></ul></div>
+          </li>
+        </section>
+      </nav>
+
+    </header>
+
+    <aside>
+      <div id="logo">
+        <img src="nav.svg">
+      </div>
+      <li>
+        <ul class="orange"><a href="index.html">ホーム</a></ul>
+        <ul class="green"><a href="about/about.html">菁々祭について</a></ul>
+        <ul class="pink"><a href="theme/theme.html">テーマ</a></ul>
+        <ul class="orange"><a href="goods/goods.html">グッズ</a></ul>
+        <ul class="green"><a href="exhibition/exhibition.html">校内案内</a></ul>
+        <ul class="pink"><a href="event/event.html">イベント</a></ul>
+        <ul class="orange"><a href="bazaar/bazaar.html">バザー</a></ul>
+        <ul class="green"><a href="blog/blog.html">ブログ</a></ul>
+      </li>
+    </aside>
+
+    <main>
+    <div id=main>
+      <!-- <section id="video">
+        <h1>プロモーションビデオ</h1>
+      </section> -->
+
+      <section id="about">
+        <h1 class="green scroll-animation">菁々祭について</h1>
+        <div class="disc">
+          <p>このページでは、東大寺学園の文化祭である、菁々祭を紹介します。<br>
+            <!-- また、実行委員長からのあいさつも掲載しています。 -->
+            また、オンライン文化祭などに関する、最新情報も掲載しております。ぜひご覧ください。
+          </p>
+        </div>
+
+        <div class="circle c-right"></div>
+
+        <a href="about/about.html">
+          <div class="rectangle green">
+            <h2 class="green scroll-animation">菁々祭について見る</h2>
+            <div><div></div></div>
+          </div>
+        </a>
+      </section>
+
+      <section id="theme">
+        <h1 class="pink scroll-animation">テーマ</h1>
+        <div class="disc">
+          <p>このページでは、テーマとロゴについてご説明します。<br>
+            また、過去のテーマやロゴの例も掲載しています。ぜひご覧ください。
+          </p>
+        </div>
+
+        <div class="circle c-left"></div>
+
+        <a href="theme/theme.html">
+          <div class="rectangle pink">
+            <h2 class="pink scroll-animation">テーマについて見る</h2>
+            <div><div></div></div>
+          </div>
+        </a>
+      </section>
+
+      <section id="goods">
+        <h1 class="orange scroll-animation">グッズ</h1>
+        <div class="disc">
+          <p>このページでは、東大寺学園の文化祭で販売するグッズなどの情報を掲載しています。ぜひご覧ください。
+          </p>
+        </div>
+
+        <div class="circle c-right"></div>
+
+        <a href="goods/goods.html">
+          <div class="rectangle orange">
+            <h2 class="orange scroll-animation">グッズについて見る</h2>
+            <div><div></div></div>
+          </div>
+        </a>
+      </section>
+
+      <section id="exhibition">
+        <h1 class="green scroll-animation">校内案内</h1>
+        <div class="disc">
+          <p>校内各所の展示・装飾についての情報を掲載しています。多種多様な展示をどうぞお楽しみください。
+          </p>
+        </div>
+
+        <div class="circle c-left"></div>
+
+        <a href="exhibition/exhibition.html">
+          <div class="rectangle green">
+            <h2 class="green scroll-animation">展示について見る</h2>
+            <div><div></div></div>
+          </div>
+        </a>
+      </section>
+
+      <section id="event">
+        <h1 class="pink scroll-animation">イベント</h1>
+        <div class="disc">
+          <p>文化祭当日に行われた、さまざまなイベントを紹介しています。ぜひご覧ください。
+          </p>
+        </div>
+
+        <div class="circle c-right"></div>
+
+        <a href="event/event.html">
+          <div class="rectangle pink">
+            <h2 class="pink scroll-animation">イベントについて見る</h2>
+            <div><div></div></div>
+          </div>
+        </a>
+      </section>
+
+      <section id="bazaar">
+        <h1 class="orange scroll-animation">バザー</h1>
+        <div class="disc">
+          <p>文化祭前や、当日に発売した文化祭グッズの情報を掲載しています。ぜひご覧ください。
+          </p>
+        </div>
+
+        <div class="circle c-left"></div>
+
+        <a href="bazaar/bazaar.html">
+          <div class="rectangle orange">
+            <h2 class="orange scroll-animation">バザーについて見る</h2>
+            <div><div></div></div>
+          </div>
+        </a>
+      </section>
+
+      <section id="blog">
+        <h1 class="green scroll-animation">ブログ</h1>
+        <div class="disc">
+          <p>今年から、ブログの公開を始めました！　ここでしか読めない裏話や面白エピソードがあるかも？　ぜひご覧ください。
+          </p>
+        </div>
+
+        <div class="circle c-right"></div>
+
+        <a href="blog/blog.html">
+          <div class="rectangle green">
+            <h2 class="green scroll-animation">ブログを見る</h2>
+            <div><div></div></div>
+          </div>
+        </a>
+      </section>
+
+    </div>
+    </main>
+
+    <footer>
+      <h1 class="scroll-animation"><a href="footer/privacy.html">プライバシーポリシー</a></h1>
+      <h1 class="scroll-animation"><a href="footer/legacy.html">過去のホームページ</a></h1>
+      <h1 class="scroll-animation"><a href="footer/contact.html">お問いあわせ</a></h1>
+      <h1 class="scroll-animation"><a href="footer/link.html">リンク</a></h1>
+      <p id="copylight">©2021 東大寺学園文化祭実行委員会 PRパート</p>
+    </footer>
+
+  </body>
+
+</html>

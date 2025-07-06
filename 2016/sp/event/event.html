@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <LINK REL="SHORTCUT ICON" HREF="../../images/fabi.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="canonical" href="http://seisei52nd.com/event/event.html">
+    <title>イベント-東大寺学園 第52回 菁々祭 </title>
+    <meta name="keywords" content="菁々祭,東大寺学園,文化祭,東大寺,52,釆氏の会" />
+    <meta name="description" content="第52回東大寺学園文化祭-菁々祭-のオフィシャルサイトです。文化祭の最新情報や校内図、イベント情報などを公開しています。">
+    <script src="../../js/jquery-2.2.2.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../../js/jquery.center.js"></script>
+    <script type="text/javascript" src="../../js/html5shiv-master/src/html5shiv.js"></script>
+    <script type="text/javascript" src="../../js/velocity.min.js"></script>
+    <link href="../../css/sp-main.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, maximum-scale=1.0, user-scalable=yes">
+    <script>
+        $(function () {
+            $(".b").click(function () {
+                var $menu = $(".sub-menu");
+                var $ham = $(".ham");
+                var $cover = $(".cover");
+                $menu.toggleClass('open');
+                $(".menu-trigger").toggleClass('active');
+                if ($menu.hasClass('open')) {
+                    $menu.velocity({
+                        left: "20%"
+                    }, {
+                        duration: 500
+                    });
+                    $cover.css("display", "block");
+                    $ham.velocity({
+                        right: "80%"
+                    }, {
+                        duration: 500
+                    });
+                } else {
+                    $menu.velocity({
+                        left: "100%"
+                    }, {
+                        duration: 500
+                    });
+                    $cover.css("display", "none");
+                    $ham.velocity({
+                        right: "0px",
+                    }, {
+                        duration: 500
+                    });
+                }
+            });
+            //, {
+            //        easing: 'easeOutCubic'
+            //  }
+            $(".cover").click(function () {
+                var $menu = $(".sub-menu");
+                var $ham = $(".ham");
+                var $cover = $(".cover");
+                $menu.velocity({
+                    left: "100%"
+                }, {
+                    duration: 500
+                });
+                $cover.css("display", "none");
+                $ham.velocity({
+                    right: "0px",
+                }, {
+                    duration: 500
+                });
+                $menu.removeClass('open');
+                $(".menu-trigger").removeClass('active');
+            });
+            $(".con-wr").center({});
+            $(".news-c>span").center({
+                horizontal: false
+            });
+            $(".sub-menu>ul>span").click(function () {
+                $(this).next("div").children("li").slideToggle();
+            });
+        });
+    </script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-77386163-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script>
+        $(function () {
+            $('.211').click(function () {
+                var ta = $(this).attr("class");
+                var height = $('html').height();
+                var width = $('html').width();
+                var speed = 600;
+                var target = $("#" + ta);
+                var position = target.offset().top;
+                var nposition = $('html,body').scrollTop();
+
+                $('html,body').animate({
+                    scrollTop: position - 55 + nposition
+                }, speed, 'swing');
+                window.navigator.vibrate(200);
+                return false
+            });
+            $('.totop').click(function () {
+                $('html,body').animate({
+                    scrollTop: 0
+                }, 'slow');
+
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="sub-menu">
+        <div class="sub-wrp">
+            <div class="s-home">
+                <a href="../index.html" class="home"><i class="fa fa-home"></i><span>home</span></a>
+                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+        <ul><span><i class="fa fa-angle-down"></i>インフォメーション</span>
+            <div>
+                <li><a href="../information/information.html">トップ</a></li>
+                <li><a href="../information/information.html#date">日程</a></li>
+                <li><a href="../information/information.html#time">時間</a></li>
+                <li><a href="../information/information.html#ent">入場について</a></li>
+            </div>
+        </ul>
+        <ul><span><i class="fa fa-angle-down"></i>アクセス</span>
+            <div>
+                <li><a href="../access/access.html">トップ</a></li>
+                <li><a href="../access/access.html#nst">最寄り駅など </a></li>
+                <li><a href="../access/access.html#tmp">高の原駅から</a></li>
+            </div>
+        </ul>
+        <ul><span><i class="fa fa-angle-down"></i>マップ</span>
+            <div>
+                <li><a href="../map/map.html">トップ</a></li>
+                <li><a href="../map/map.html#koz">校内図</a></li>
+                <li><a href="../map/map.html#tdi">展示団体一覧</a></li>
+            </div>
+        </ul>
+        <ul><span><i class="fa fa-angle-down"></i>イベント</span>
+            <div>
+                <li><a href="../event/event.html">トップ</a></li>
+                <li><a href="../event/event.html#tit">タイムテーブル</a></li>
+                <li><a href="../event/event.html#evo">イベント団体</a></li>
+                <li><a href="../event/event.html#wos">公開授業</a></li>
+            </div>
+        </ul>
+        <ul><span><i class="fa fa-angle-down"></i>スペシャル</span>
+            <div>
+                <li><a href="../special/special.html">トップ</a></li>
+                <li><a href="../special/special.html">ダウンロード</a></li>
+            </div>
+
+        </ul>
+    </div>
+
+    <div class="st-header">
+        <div class="totop"><span>top</span></div>
+        <a href="../../index.html"><img src="../../images/rogo.png" height="100" width="50" class="top-rogo"></a>
+        <div class="box"></div>
+        <div class="ham b">
+            <a class="menu-trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+    </div>
+    <div class="cover"></div>
+    <div class="main">
+        <header class="header">
+        </header>
+        <div class="contents eve">
+            <h1>イベント</h1>
+
+            <h2>タイムテーブル<div class="line" id="tit"></div></h2>
+            <div class="timetb">
+                <p id="11">1日目</p>
+                <hr>
+                <div class="first ">
+
+                    <table>
+                        <p class="pink">中庭</p>
+                        <tr>
+                            <td class="tdtime">9:30</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">10:20</td>
+                            <td class="tdmain">ダンスⅠ部（寺’ｓ、THE IDOLM@STER～シッダルタガールズ～、寺色クローバーＺ）</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">10:30</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">11:20</td>
+                            <td class="tdmain">マッチョコンテスト</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">11:30</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">12:50</td>
+                            <td class="tdmain">Mr.美少女コンテスト（予選）</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">13:50</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">14:40</td>
+                            <td class="tdmain">ダンスⅡ部（ＴＤＪ４８、Ｅ卍ＩＬＥ）</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                        </tr>
+                    </table>
+                </div>
+
+                <div>
+                    <p class="blue">圓融館</p>
+
+                    <table>
+                        <tr>
+
+                            <td class="tdtime">9:15</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">10:15</td>
+                            <td class="tdmain">中１コーラス</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">10:45</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">13:40</td>
+                            <td>第15回菁々コンサート</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">14:10</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">15:50</td>
+                            <td>室内楽部第29回定期演奏会</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                        </tr>
+                    </table>
+                </div>
+                <!--第1段落-->
+                <div class="clear"></div>
+
+                <div class="mr">
+                    <p class="red">体育館（晴天時）</p>
+                    <table>
+
+                        <tr>
+                            <td class="tdtime">9:30</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">10:10</td>
+                            <td class="tdmain">中２演劇</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">13:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">13:50</td>
+                            <td class="tdmain">カラオケコンテスト</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">15:15</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">17:00</td>
+                            <td class="tdmain">中夜祭</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="last">
+                    <table>
+                        <p class="gray">体育館（雨天時）</p>
+                        <tr>
+                            <td class="tdtime">9:10</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">9:50</td>
+                            <td class="tdmain">中２演劇</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">10:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">11:00</td>
+                            <td class="tdmain">ダンスⅠ部（寺’ｓ、THE IDOLM@STER～シッダルタガールズ～、寺色クローバーＺ）</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">11:10</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">12:00</td>
+                            <td class="tdmain">マッチョコンテスト</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">13:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">14:00</td>
+                            <td class="tdmain">ダンスⅡ部（ＴＤＪ４８、Ｅ卍ＩＬＥ）</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">14:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">14:50</td>
+                            <td class="tdmain">カラオケコンテスト</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">15:15</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">17:00</td>
+                            <td class="tdmain">中夜祭</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+
+                    </table>
+                </div>
+                <!--第2段落-->
+                <div class="clear"></div>
+                <div class="first mr">
+                    <table>
+                        <p class="yellow">小講堂</p>
+                        <tr>
+                            <td class="tdtime">9:10</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">9:30</td>
+                            <td class="tdmain">高１映画</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">9:45</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">10:25</td>
+                            <td class="tdmain">中３映像制作パート</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr class="191">
+                            <td class="tdtime">10:40</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">11:40</td>
+                            <td class="tdmain">
+                                <a class="211">高２映像制作班</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">11:55</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">12:15</td>
+                            <td class="tdmain">高１映画</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">12:30</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">13:30</td>
+                            <td class="tdmain"><a class="211">高２映像制作班</a></td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">13:45</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">14:25</td>
+                            <td class="tdmain">中３映像制作パート</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">14:40</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">15:40</td>
+                            <td class="tdmain"><a class="211">高２映像制作班</a></td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="mr">
+                    <table>
+                        <p class="lgreen">視聴覚室</p>
+                        <tr>
+                            <td class="tdtime">10:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">10:30</td>
+                            <td class="tdmain">英語研究会</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">12:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">12:30</td>
+                            <td class="tdmain">英語研究会</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">13:15</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">13:45</td>
+                            <td class="tdmain">英語科公開授業</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+
+                    </table>
+                </div>
+                <!--第3段落-->
+                <div class="clear"></div>
+                <div class="first mr">
+                    <table>
+                        <p class="green">物理室</p>
+                        <tr>
+                            <td class="tdtime">10:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">10:20</td>
+                            <td class="tdmain">科学部</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">11:15</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">11:45</td>
+                            <td class="tdmain">理科公開授業</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">13:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">13:20</td>
+                            <td class="tdmain">科学部</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">14:30</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">14:50</td>
+                            <td class="tdmain">科学部</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="mr">
+                    <table>
+                        <p class="brown">転心殿前</p>
+                        <tr>
+                            <td class="tdtime">10:30</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">10:50</td>
+                            <td class="tdmain">和太鼓演奏</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">14:30</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">14:50</td>
+                            <td class="tdmain">和太鼓演奏</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+
+
+                    </table>
+                </div>
+                <!--第4段落-->
+                <div class="clear"></div>
+                <div class="first mr">
+                    <table>
+                        <p class="orange">4A</p>
+                        <tr>
+                            <td class="tdtime">9:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">10:30</td>
+                            <td class="tdmain">音楽部</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">13:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">15:30</td>
+                            <td class="tdmain">音楽部</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+
+
+                    </table>
+                </div>
+                <div class="mr">
+                    <table>
+                        <p class="lblue">グラウンド</p>
+                        <tr>
+                            <td class="tdtime">13:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">13:20</td>
+                            <td class="tdmain">ロケット打ち上げ</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">14:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">14:20</td>
+                            <td class="tdmain">ロケット打ち上げ</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+
+
+                    </table>
+                </div>
+                <div class="clear"></div>
+
+                <p id="12">2日目</p>
+                <hr>
+
+                <div class="first">
+                    <table>
+                        <p class="pink">中庭</p>
+                        <tr>
+                            <td class="tdtime">10:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">10:50</td>
+                            <td class="tdmain">ダンスⅠ部（寺’ｓ、THE IDOLM@STER～シッダルタガールズ～、寺色クローバーＺ）</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">11:30</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">12:20</td>
+                            <td class="tdmain">イケメンコンテスト</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">12:50</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">13:40</td>
+                            <td class="tdmain">ダンスⅡ部（ＴＤＪ４８、寺色クローバーＺ）
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">13:50</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">14:40</td>
+                            <td class="tdmain">Mr.美少女コンテスト（本選）
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div>
+                    <p class="blue mr">圓融館</p>
+                    <table>
+                        <tr>
+                            <td class="tdtime">9:15</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">10:00</td>
+                            <td class="tdmain">中２発表会
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">10:50</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">11:20</td>
+                            <td>ＰＴＡコーラス
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">11:45</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">13:40</td>
+                            <td>第15回菁々コンサート
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">14:10</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">15:50</td>
+                            <td>室内楽部第29回定期演奏会</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+
+                    </table>
+                </div>
+                <!--第1段落-->
+                <div class="clear"></div>
+
+                <div class="mr">
+                    <p class="red">体育館（晴天時）</p>
+                    <table>
+
+                        <tr>
+                            <td class="tdtime">9:10</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">9:50</td>
+                            <td class="tdmain">中１演劇
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">10:20</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">11:00</td>
+                            <td class="tdmain">中２演劇
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">11:50</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">12:50</td>
+                            <td class="tdmain">クイズ大会
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">15:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">17:00</td>
+                            <td class="tdmain">後夜祭</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="last">
+                    <table>
+                        <p class="gray">体育館（雨天時）</p>
+                        <tr>
+                            <td class="tdtime">9:30</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">10:10</td>
+                            <td class="tdmain">中１演劇
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">10:20</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">11:00</td>
+                            <td class="tdmain">中２演劇
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">11:10</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">11:55</td>
+                            <td class="tdmain">イケメンコンテスト
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">12:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">13:10</td>
+                            <td class="tdmain">ダンスⅠ・Ⅱ部
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">13:20</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">14:00</td>
+                            <td class="tdmain">クイズ大会
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">14:10</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">15:00</td>
+                            <td class="tdmain">Mr.美少女コンテスト
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">15:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">17:00</td>
+                            <td class="tdmain">後夜祭
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                    </table>
+                </div>
+                <!--第2段落-->
+                <div class="clear"></div>
+                <div class="first mr">
+                    <table>
+                        <p class="yellow">小講堂</p>
+                        <tr>
+                            <td class="tdtime">9:10</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">9:30</td>
+                            <td class="tdmain">高１映画</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">9:45</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">10:25</td>
+                            <td class="tdmain">中３映像制作パート</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">10:40</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">11:40</td>
+                            <td class="tdmain">図書委員会
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">11:55</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">12:15</td>
+                            <td class="tdmain">高１映画</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">12:30</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">13:30</td>
+                            <td class="tdmain"><a class="211">高２映像制作班</a></td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">13:45</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">14:25</td>
+                            <td class="tdmain">中３映像制作パート</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">14:40</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">15:40</td>
+                            <td class="tdmain"><a class="211">高２映像制作班</a></td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="mr">
+                    <table>
+                        <p class="lgreen">視聴覚室</p>
+                        <tr>
+                            <td class="tdtime">10:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">10:30</td>
+                            <td class="tdmain">英語研究会</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">11:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">11:40</td>
+                            <td class="tdmain">数学科公開授業
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">12:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">12:30</td>
+                            <td class="tdmain">英語研究会
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">13:15</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">13:45</td>
+                            <td class="tdmain">国語科公開授業
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                    </table>
+                </div>
+                <!--第3段落-->
+                <div class="clear"></div>
+                <div class="first mr">
+                    <table>
+                        <p class="green">物理室</p>
+                        <tr>
+                            <td class="tdtime">10:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">10:20</td>
+                            <td class="tdmain">科学部</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+
+                        <tr>
+                            <td class="tdtime">13:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">13:20</td>
+                            <td class="tdmain">科学部</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">14:30</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">14:50</td>
+                            <td class="tdmain">科学部</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="mr">
+                    <table>
+                        <p class="brown">転心殿前</p>
+                        <tr>
+                            <td class="tdtime">10:30</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">10:50</td>
+                            <td class="tdmain">和太鼓演奏</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">14:30</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">14:50</td>
+                            <td class="tdmain">和太鼓演奏</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                    </table>
+                </div>
+                <!--第4段落-->
+                <div class="clear"></div>
+                <div class="first mr">
+                    <table>
+                        <p class="orange">4A</p>
+                        <tr>
+                            <td class="tdtime">9:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">10:30</td>
+                            <td class="tdmain">音楽部</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">13:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">15:30</td>
+                            <td class="tdmain">音楽部</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="mr">
+                    <table>
+                        <p class="lblue">グラウンド</p>
+                        <tr>
+                            <td class="tdtime">11:00</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">11:20</td>
+                            <td class="tdmain">ロケット打ち上げ</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">12:30</td>
+                            <td class="tdtime">～</td>
+                            <td class="tdtime">12:50</td>
+                            <td class="tdmain">ロケット打ち上げ</td>
+                        </tr>
+                        <tr>
+                            <td class="tdtime">　</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <h2 id="2">イベント団体 <div class="line" id="evo"></div></h2>
+            <div class="eveo">
+                <p><span>中１演劇</span>
+                    <br>体育館
+                    <br>タイトルは「泣かない仲間」。奇妙な世界に迷い込んだ少年が不思議な老人と出会う。この老人は少年のことを次々に解き明かしていく。果たして泣かない仲間たちの導きで、少年はこの奇妙な世界から抜け出すことができるのか…。
+                </p>
+                <p><span>中２演劇</span>
+                    <br>体育館
+                    <br>タイトルは「水戸黄門」。ご存じ、諸国漫遊中の黄門様一行が、秋山藩にはびこる悪を退治する痛快時代劇。中２演劇グループが総力を結集して演じます。ぜひ、観劇してください。
+                </p>
+                <p><span>ＰＴＡコーラス</span>
+                    <br>圓融館
+                    <br>今年も圓融館のホールを女声合唱の華麗なハーモニーで満たします。「ふるさと」「朧月夜」「夏は来ぬ」などの演奏を予定しています。皆さまのご来場、お待ちしております。
+                </p>
+                <p><span>室内楽部第29回定期演奏会</span>
+                    <br>圓融館
+                    <br>毎年恒例の室内楽部定期演奏会は、今年で29年目を迎えます。「マーチ王」の異名を取るアメリカの作曲家・スーザのマンハッタン・ビーチや、初演から140周年を迎えるドヴォルザークの弦楽セレナーデを演奏します。他にはハイドンの交響曲や、昨年に渡辺謙が主演を務めて話題となったミュージカル「王様と私」の楽曲など。心を込めて演奏しますので、ぜひ圓融館までお越しください。 ※土曜日と日曜日の曲目は同じです。</p>
+                <ul>～プログラム～
+                    <li>マンハッタン・ビーチ／J. スーザ </li>
+                    <li>弦楽セレナーデより　第1・2・5楽章／A. ドヴォルザーク</li>
+                    <li>交響曲第88番　全楽章／F. ハイドン</li>
+                    <li>ミュージカル「王様と私」より ／R. ロジャース and more…</li>
+                </ul>
+
+                <p><span>第15回菁々コンサート</span>
+                    <br>圓融館
+                    <br>今年で15年目を迎える菁々コンサートは、校内の楽器の名手たちが集うクラシックを中心とした演奏会です。ピアノやヴァイオリンのソロのほかにピアノ・トリオやホルン三重奏など、今年も中学生から高校生まで多くの生徒が参加してくれました。まだまだ暑いこの季節。涼みがてらにでも、圓融館まで足を運んでみてはいかがでしょうか。 ※土曜日と日曜日で曲目が異なります。
+                </p>
+                <ul>～プログラム～
+                    <li>「幻想即興曲」／F. ショパン</li>
+                    <li>ヴァイオリン協奏曲 ニ短調 作品47 より　第1楽章／J. シベリウス</li>
+                    <li>ピアノ三重奏曲第7番「大公」より　第1楽章／L. ベートーヴェン and more…</li>
+                </ul>
+                <p><span>中１コーラス</span>
+                    <br>圓融館
+                    <br>Ａ組は「キセキ」、Ｂ組は「空も飛べるはず」、Ｃ組は「栄光の架橋」、Ｄ組は「ＲＰＧ」を歌います。また、学年全体では、校歌と「歓喜の歌」を歌います。元気な歌声を、ぜひ聴きに来てください。
+                </p>
+                <p><span>中２発表会</span>
+                    <br>圓融館
+                    <br>英語の歌も含めて数曲を 人数は少ないですが大きな声で歌います。またその後様々なテーマに沿って調べたことを発表します。
+                </p>
+                <p><span>マッチョコンテスト</span>
+                    <br>中庭
+                    <br>東大寺生はガリ勉？痩せてる？そんな考えはもう古い！東大寺のマッチョたちが自慢の肉体を披露します！ぜひご覧あれ！！
+                </p>
+                <p><span>カラオケコンテスト</span>
+                    <br>体育館
+                    <br>有志数人がカラオケで競います。東大寺生による、個性あふれる熱唱を、ぜひお聞きください。
+                </p>
+                <p><span>Mr.美少女コンテスト</span>
+                    <br>中庭
+                    <br>菁々祭恒例目玉企画！今年は予選も開催されます。厳しい競争を勝ち上がって優勝するのは誰なのか？あなたも歴史の目撃者に！
+                </p>
+                <p><span>イケメンコンテスト</span>
+                    <br>中庭
+                    <br>厳正な審査をくぐり抜けた東大寺学園のイケメンたちによる、意地とプライドをかけた熱き戦いを見逃すな！！
+                </p>
+                <p><span>ダンス</span>
+                    <br>中庭
+                    <br>男たちが真剣（マジ）で取り組んだダンスをとくとご覧あれ。
+                </p>
+                <p><span>クイズ大会</span>
+                    <br>体育館
+                    <br>高校生クイズの名門、東大寺学園クイズ研究部が今年は体育館に進出して全員参加型のクイズを実施します！部員から出題される問題に正解し、勝利を掴み取れ！
+                </p>
+                <p><span>E卍ILE</span>
+                    <br>中庭
+                    <br>夏休みの暑い中、汗水流して練習してきました。ぜひ見に来てください!!
+                </p>
+                <p><span>TDJ48</span>
+                    <br>中庭
+                    <br>東大寺学園名物のTDJ48です！今年は乃木坂46の曲にもチャレンジします。可憐なパフォーマンスで菁々祭に華を添えます♡
+                </p>
+                <p><span>THE IDOLM@STER～シッダルタガールズ～</span>
+                    <br>中庭
+                    <br>アイドルマスターシリーズのコスプレをした東大寺学園生たちが菁々祭のステージで踊ります！『夢は、みんなまとめてトップアイドル！』
+                </p>
+                <p><span>寺’ｓ</span>
+                    <br>中庭
+                    <br>去年を持って解散した坊’ｓ。しかし今年新たなスクールアイドル「寺’ｓ」が始動。見たことのない世界とふれあい、スクールアイドルとして、何ができるか。限られた時間の中で、寺’ｓが見つけた最高に楽しいライブとは！
+                </p>
+                <p><span>寺色クローバーZ</span>
+                    <br>中庭
+                    <br>今年もやります寺色クローバーZ！他のグループに負けないよう練習を重ねてきました。みなさんも一緒に盛り上がっていきましょう！
+                </p>
+                <p><span>お化け屋敷</span>
+                    <br>演習室Ｂ・Ｃ
+                    <br>夏といえば？文化祭といえば？もちろんお化け屋敷でしょう！お化け屋敷は毎年大好評。ぜひ演習室Ｂ・Ｃまで足を運んで気分を盛り上げてください！整理券は演習室Ｃ前にて配布します（お化け屋敷への入場には整理券が必須です）。
+                </p>
+                <p><span>中夜祭</span>
+                    <br>体育館
+                    <br>初日をしめくくる中夜祭。ビンゴはここで行います。
+                </p>
+                <p><span>後夜祭</span>
+                    <br>体育館
+                    <br>文化祭のラストを飾る後夜祭。楽しい企画をたくさん用意しているので、最後まで盛り上がりましょう！
+                </p>
+                <br>
+                <br>
+                <h3 id="21">室内イベント団体</h3>
+                <p id="211" class="k">高2映像制作班
+                    <br>
+                    <span id="191">相棒「チェックメイト～ラストゲーム～」</span>
+                    <br>60分　小講堂
+                    <br>「TDJ版相棒」では、あの国民的刑事ドラマ「相棒」を去年に引き続き、東大寺学園風にアレンジ！ 「アレンジ」と言っても本物と一緒なのは、名前とBGMくらいで、ストーリーは当然生徒のオリジナル。演技にも人それぞれの個性が出ていて、今まで誰も出会ったことがない「東大寺風の」相棒となっております。 また、「TDJ版相棒」は今年で最後となります。一生に１回のチャンスとなっていますので、見逃したら損ですよ、そこのアナタ！ 高2生約20名でお送りする前代未聞の大作をぜひご賞味あれ！
+                </p>
+                <p>高1映画
+                    <br>
+                    <span>布村主任の悲劇</span>
+                    <br>20分　小講堂
+                    <br>これは、ある男の不幸な物語…。
+                </p>
+                <p>中3映像制作パート
+                    <br>
+                    <span>BUMP OF CHICKENオリジナルMV
+                        <br>バカッコイイ日常inTDJ
+                        <br>プロフェッショナル　～仕事の流儀～
+                        <br>（3本立て）
+                    </span>
+                    <br>40分　小講堂
+                    <br>CD総売り上げ1300万枚を超す人気バンドBUMP OF CHICKENのオリジナルMV、己の忍耐の限界に挑んだ「バカッコイイ日常inTDJ」、生徒で出し合った様々な件に対してちょっとだけ首を突っ込んだ「休日から早起き」の3本をお送りします。ぜひご覧になってください！
+                </p>
+                <p>図書委員会
+                    <br>
+                    <span>ビブリオバトル</span>
+                    <br>60分　小講堂
+                    <br>ビブリオバトルとは京都大学で始まった、新しいスタイルの書評合戦である。 「自分の本への愛情」を5分間で語り、どれだけ読んでみたいと思わせるかを競うもので、本の審美眼とプレゼンテーション能力を必要とする。 今回、兵庫県の灘高校の図書委員会を招待し、東大寺学園vs灘の形でビブリオバトルを開催。ぜひご覧あれ。
+                </p>
+                <p>英語研究会
+                    <br>
+                    <span>模擬国連</span>
+                    <br>20分　視聴覚室
+                    <br>英語研究会では、模擬国連（Model United Nations）を主に行っています。これは、実際に部員で各国の大使を担当し、国連を模して難民等の世界の問題を考える活動です。今回は実際に模擬国連を見て頂こうと思います。午前の部は、普段の活動を短縮したものを発表し、午後の部は考えやすいテーマで行い、みなさんに参加していただけるものとなっています。是非お越しください。 Please enjoy the English Club activity with us!
+                </p>
+                <p>科学部
+                    <br>
+                    <span>科学部演示実験</span>
+                    <br>20分　物理室
+                    <br>今年も、毎年お馴染みの「炎色反応」をはじめ、物理実験や解剖など、あなたの心を引き付ける実験が盛りだくさん！子供はもちろん、大人まで楽しめること間違いなしです。 安全性には十分配慮しています。冷房も完備しています。皆様、涼しい中で東大寺学園が誇る高クオリティーの実験を是非楽しんでくださいね。 ※演示実験中の出入りはご遠慮ください。実験に来られる方は、始まるまでに物理室に入っておいてください。
+                </p>
+            </div>
+            <br>
+            <br>
+
+            <h2 id="3">公開授業 <div class="line" id="wos"></div></h2>
+            <br>
+            <div class="works">
+                <p>それぞれ授業開始の２時間前から、転心殿前インフォメーションにおいて入場整理券を配布します。
+                    <br> 授業開始20分前から入場できます。
+                    <br> 公開授業途中での入退室はご遠慮ください。
+                </p>
+                <br>
+                <h3 class="green">理科　「光通信のしくみ」（小学生対象）</h3>
+                <p>理科教諭
+                    <br>物理室（高校棟3階）
+                    <br>1日目　11:15-11:45（約30分）　開場11:00
+                    <br>テレビのコマーシャルで「○○光」とか「光△△」という言葉を耳にします。 インターネットやテレビ、電話の内容をどのようにして光に乗せているのでしょうか。 この授業ではデジタルではなくアナログの光通信を、たくさんの実験を交えながら説明する予定です。
+                </p>
+                <br>
+                <h3 class="orange">英語　「英語ができれば、」</h3>
+                <p>英語科教諭
+                    <br>視聴覚室（高校棟4階）
+                    <br>1日目　13:15-13:45（約30分）　開場13:00
+                    <br>英語ができれば世界が広がる――さて、英語を習得したその先に、一体どんな世界が広がるのでしょう。英語体験をもとに考える、そんな時間をご一緒できれば、と思います。
+                </p>
+                <br>
+                <h3 class="blue">数学　「ゲームにひそむ数理」（小学生対象）</h3>
+                <p>数学科教諭
+                    <br>視聴覚室（高校棟4階）
+                    <br>2日目　11:00-11:40（約40分）　開場10:45
+                    <br>算数・数学といえば、計算をしたり図形を考えたりすることを思いうかべる方が多いでしょう。しかし、算数・数学は意外なところにもひそんでいます。今回はみなさんとゲームを楽しみながら、算数・数学の奥深さを体験していきたいと思います。
+                </p>
+                <br>
+                <h3 class="red">国語　「物語がうまれるところ」</h3>
+                <p>国語科教諭
+                    <br>視聴覚室（高校棟4階）
+                    <br>2日目　13:15-13:45（約30分）　開場13:00
+                    <br>さまざまな作品を通して、物語のもつ魅力や楽しさを、みなさんとごいっしょに味わってゆきたいと思います。
+                </p>
+                <br>
+            </div>
+        </div>
+        <div class="clear"></div>
+
+        <br>
+
+    </div>
+    <div class="footer">
+        東大寺学園　第52回菁々祭PRパート
+    </div>
+    </div>
+    <script src="https://use.typekit.net/ttn6dyi.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+</body>
+
+</html>

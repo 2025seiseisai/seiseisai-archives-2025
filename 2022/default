@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+
+        <!--GTAG -->
+        <!--adobe_fonts-->
+        <script>
+          (function(d) {
+            var config = {
+              kitId: 'qxv3nky',
+              scriptTimeout: 3000,
+              async: true
+            },
+            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+          })(document);
+        </script>
+          <meta charset="utf-8">
+          <!--追加CSS-->
+          <link rel="stylesheet" href="/theme/theme.css">
+          <title>東大寺学園文化祭「菁々祭」公式ホームページ</title>
+          <meta name="viewport" content="width=device-width,intial-scale=1">
+          <meta name="keywords" content="東大寺,東大寺学園,tdj,文化祭,菁々祭,しきさい,色彩,四季彩,2022">
+          <meta name="description" content="東大寺学園文化祭「菁々(せいせい)祭」公式サイト。第58回オンライン菁々祭も開催予定。イベントや展示、バザーなどバザーなどバザーなど菁々祭に関するさまざまな情報をお届けします!">
+          <link rel="shortcut icon" href="../favicon.ico">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <script src="/js/bootstrap.bundle.min.js"></script> 
+        <!--ヘッダー兼ナビゲーションバー　-->
+        <div class="mob-tab">
+        <nav class="navbar">
+        <a class="navbar-brand" href="/index.html"><img class="ms-3" src="/logo.svg" width="30"></a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </span>
+</button>
+         <!-- ナビゲーションメニュー -->
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav container">
+                <li class="nav-item active space row">
+                    <a class="nav-link float-start col-6 available" href="../index.html">home                           </a><span class="float-end  leftmar col">ホーム</span>
+                <li class="nav-item active  my-2 row">
+                    <a class="nav-link float-start col-6 available" href="/theme/theme.html">theme / logo                    </a> <span class="float-end leftmar col">テーマとロゴ</span>
+                </li>
+                <li class="nav-item active my-2 row">
+                    <a class="nav-link float-start col-6 available" href="#">exibition                     </a> <span class="float-end leftmar col">校内展示</span>
+                </li>
+                <li class="nav-item active my-2 row">
+                    <a class="nav-link float-start col-6 available" href="/event/event.html">event                         </a> <span class="float-end leftmar col">イベント</span>
+                </li>
+                <li class="nav-item active my-2 row">
+                    <a class="nav-link float-start col-6 available" href="#">goods                         </a> <span class="float-end leftmar col">グッズ</span>
+                </li><li class="nav-item active my-2 row">
+                    <a class="nav-link float-start col-6 available" href="#">blog                         </a> <span class="float-end leftmar col">ブログ</span>
+                </li><li class="nav-item active my-2 row">
+                    <a class="nav-link float-start col-6 available" href="#">dawnload                         </a> <span class="float-end leftmar col">ダウンロード</span>
+                </li><li class="nav-item active my-2 row">
+                    <a class="nav-link float-start col-6 available" href="#">access                      </a> <span class="float-end leftmar col">交通アクセス</span>
+                </li>
+                <li class="nav-item active my-2 row">
+                    <a class="nav-link float-start col-6 available" href="https://www.tdj.ac.jp/index.html#seiseisai2022">reserve                     </a> <span class="float-end leftmar col">予約ページ</span>
+                </li>
+                <li class="icon-li"> <a href="https://twitter.com/seiseisai_tdj"><img class="icon" src="/icon_twitter.svg"></a> <a href="https://www.instagram.com/seiseisai_tdj/"><img class="icon" src="/icon_instagram.svg"></a></li>
+            </div>
+        </nav>
+       
+        <hr>
+                <div class="social">
+                    <img  class="logo" src="/shikisai_andlogo.svg">
+                    <ul  class="colu">
+                        <li>
+                            <a  class="media" href="https://twitter.com/seiseisai_tdj"><img class="ig" src="/icon_twitter.svg"> <span class="medi"> twitter</span></a>
+                        </li>
+                        <li>
+                            <a class="media" href="https://www.instagram.com/seiseisai_tdj/"><img class="ig" src="/icon_instagram.svg"><span class="medi"> instagram</span></a>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="cm">
+                <h1 class="cmark">©2022 58th SEISEISAI “shikisai”, Created by PR part</h1>
+                </div>
+        </div>
+        
+            
+        </div>
+
+        </div>
+        
+        <div class="pc">
+            <div class="date">
+               
+               
+            <div class="linkshu">
+                <table border="0"  cellpading="10">
+                    <tr>
+                        <td width="40%" height="10vh"><a href="/index.html" class="available">home</a></td>
+                        <td width="60%" height="10vh"><span>ホーム</span></td>
+                    </tr>
+                    <tr>
+                        <th width="55%" height="10vh"><a href="/theme/theme.html" class="available">theme / logo</a></th>
+                        <th width="45%" height="10vh"><span>テーマとロゴ</span></th>
+                    </tr>
+                    <tr>
+                        <td width="40%" height="10vh"><a href="#" class="available">exibition</a></td>
+                        <td width="60%" height="10vh"><span>校内展示</span></td>
+                    <tr>
+                        <td width="45%" height="10vh"><a href="#" class="available">event</a></td>
+                        <td width="55%" height="10vh"><span>イベント</span></td>
+                    </tr>
+                    <tr>
+                        <td width="45%" height="10vh"><a href="#" class="available">goods</a></td>
+                        <td width="55%" height="10vh"><span>グッズ</span></td>
+                    </tr>
+                    <tr>
+                        <td width="45%" height="10vh"><a href="#" class="available">blog</a></td>
+                        <td width="55%" height="10vh"><span>ブログ</span></td>
+                    </tr><tr>
+                        <td width="45%" height="10vh"><a href="#" class="available">download</a></td>
+                        <td width="55%" height="10vh"><span>ダウンロード</span></td>
+                    </tr>
+                    <tr>
+                        <td width="45%" height="10vh"><a href="#" class="available">access</a></td>
+                        <td width="55%" height="10vh"><span>交通アクセス</span></td>
+                    </tr>
+                    <tr>
+                        <td width="45%" height="10vh"><a href="https://www.tdj.ac.jp/index.html#seiseisai2022" class="available">reserve</a></td>
+                        <td width="55%" height="10vh"><span>予約ページ</span></td>
+                    </tr>
+                </table>
+                <hr>
+                <div class="social">
+                    <img  class="logo" src="/shikisai_andlogo.svg">
+                    <ul  class="colu">
+                        <li>
+                            <a  class="media" href="https://twitter.com/seiseisai_tdj"><img class="ig" src="/icon_twitter.svg"> <span class="medi"> twitter</span></a>
+                        </li>
+                        <li>
+                            <a class="media" href="https://www.instagram.com/seiseisai_tdj/"><img class="ig" src="/icon_instagram.svg"><span class="medi"> instagram</span></a>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <h1 class="cmark">©2022 58th SEISEISAI “shikisai”, Created by PR part</h1>
+            </div>
+            
+           </div>
+           
+
+
+        <div class="mob-tab">
+
+        </div>
+      
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "../scss/bootstrap.scss";
+
+@function pc-get($size, $viewport: 992){
+  @return 100 / $viewport
+}
+
+  
+
+@mixin pc($font_size: 10) {
+  font-size: $font_size * 1px;
+  font-size: pc-get($font_size);
+}
+
+@function mob-get($size, $viewport: 576){
+    @return 100 / $viewport
+  }
+  
+    
+  
+  @mixin mob($font_size: 10) {
+    font-size: $font_size * 1px;
+    font-size: mob-get($font_size);
+  }
+
+* {
+    font-family: 'futura-pt',sans-serif,;
+    font-weight: 700;
+    font-family: 'fot-udkkakugoc70-pro'sans-serif;
+    font-weight: 400;
+}
+nav {
+    background-color: #333333;
+}
+
+ul li {
+    color: #c3c3c3;
+    background-color:#333333;
+}
+
+ul a {
+  color: #ffffff !important;
+}
+
+.available {
+  color: #717171;
+}
+
+
+.space {
+  margin-top: 3rem;
+  margin-bottom: 0rem;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.icon-li {
+  text-align: center;
+  letter-spacing: 6rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+} 
+
+.navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+    outline: none;
+  }
+   
+.navbar-toggler-icon {
+    background-image: none;
+  }
+   
+  .navbar-toggler-icon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: none;
+    appearance: none;
+    cursor: pointer;
+   
+    &,
+    span {
+      display: inline-block;
+      transition: all 0.4s;
+      box-sizing: border-box;
+    }
+   
+    span {
+      position: absolute;
+      left: 5px;
+      width: 80%;
+      height: 2px;
+      background-color: #ffffff;
+      border-radius: 1px;
+   
+      &:nth-of-type(1) {
+        top: 8px;
+      }
+      &:nth-of-type(2) {
+        top: 20px;
+      }
+      &:nth-of-type(3) {
+        top: 32px;
+      }
+    }
+  }
+   
+  .navbar-toggler[aria-expanded='true'] {
+    span.navbar-toggler-icon {
+      span {
+        &:nth-of-type(1) {
+          transform: translateY(12px) rotate(-315deg);
+        }
+        &:nth-of-type(2) {
+          opacity: 0;
+        }
+        &:nth-of-type(3) {
+          transform: translateY(-12px) rotate(315deg);
+        }
+      }
+    }
+  }
+
+
+.nav-link {
+  color: #ffffff;
+  margin-left: 2rem;
+  font-family: 'futura-pt',sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+
+//pc
+@media screen and (min-width:992px){
+  .mob-tab{
+    display: none;
+  }
+  .pc {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    
+  }
+  .date {
+    width: 75vw;
+    /* background: linear-gradient(174deg, #ffffff 0%,#ffffff 750px,#333333 750px,#333333 100%);*/
+    h1 {
+      margin-top: 6vh;
+      font-weight: 600;
+      margin-left: 5vw;
+      letter-spacing: 0.1rem;
+      font-size: 2rem;
+    }
+    
+
+  }
+ 
+  .shiki {
+    display: flex;
+    height: 40vh;
+    img {
+      width: 25vw;
+      margin-top: 5vh;
+      margin-left: 5vw;
+      height: 25vh;
+    }
+    p {
+      font-size: 0.75rem;
+      letter-spacing: 0.2rem;
+      line-height: 2.5rem;
+      margin-left: 10vw;
+      margin-top: 7vh;
+      height: 25vh;
+      width: 25vw;
+    }
+
+  }
+ 
+  .linkshu {
+    background-color: #333333;
+    list-style: none;
+    background-position: 60% 0%;
+    width: 25vw;
+    height: 100vh;
+    font-weight: 700;
+    position: sticky;
+    top: 0px;
+  }
+  span{
+    //padding-left: 5vw;//
+    color: #c3c3c3 !important;
+    @include pc(12);
+    margin-left: 1vw;
+  }
+  a {
+    margin-left: 1vw;
+    @include pc(25);
+    color:#ffffff !important;
+  }
+  
+ 
+  table {
+    margin-left: 1vw;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+  tr {
+    height: 8vh;
+  }
+  td{
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+  }
+  th{
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+  }
+  hr {
+    height: 1px;
+    width: 20vw;
+    margin-left: 2.5vw;
+    color: #ffffff;
+    margin-top: 2vh;
+  }
+  .log {
+    width: 40vw;
+    margin-left: 10vw;
+    margin-top: 20vh;
+  }
+  .logo {
+    padding-top: 1vw;
+    width: 10vw;
+    margin-left: 1vw;
+
+  }
+
+  .social {
+    display: flex;
+  }
+  .col img{
+    width: 1vw;
+  }
+  .ig {
+    width: 1vw;
+    margin-top: 2.7vh;
+  }
+  .medi {
+    font-size: 1vw;
+    padding-left: 3vw;
+    padding-top: 2vh;
+  }
+  .colu {
+    padding-top: 1vh;
+    list-style: none;
+  }
+  .cmark {
+    font-size: 0.8rem;
+    color: #ffffff;
+    margin-left: 2vw;
+    margin-top: 6vh;
+
+
+  }
+
+
+}
+
+
+
+
+
+
+
+
+//tablet
+@media screen and(max-width:992px) and(min-width:576px){
+  body {
+    overflow-x: hidden;
+  }
+  .sik {
+    display: flex;
+  }
+  .pc {
+    display: none;
+  }
+  .social {
+    display: flex;
+    background-color: #333333;
+    .logo {
+      border-style: none;
+      width: 45vw;
+      margin-left: 8vw;
+    }
+  }
+  .col img{
+    width: 1vw;
+  }
+  .ig {
+    width: 3vw;
+    padding-top: 3vh;
+  }
+  .medi {
+    font-size: 2vw;
+    padding-left: 3vw;
+    padding-top: 3vh;
+  }
+  .colu {
+    padding-top: 1vh;
+    list-style: none;
+    padding-left: 6rem;
+  }
+  .cmark {
+    font-size: 0.4rem;
+    color: #ffffff;
+    margin-left: 2vw;
+    background-color: #333333;
+    margin-top: -5vh !important;
+    width: 98;
+
+
+  }
+  hr {
+    color: #ffffff;
+  }
+  .cm {
+    background-color: #333333;
+  }
+  h1{
+    font-weight: 700;
+    margin-top: 8vh !important;
+    margin-left: 8vw !important;
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+
+  }
+  .theme {
+    img {
+      margin-left: 10vw;
+      padding-top: 4rem;
+      width: 41vw;
+      margin-bottom: 10vh;
+    }
+    p {
+      font-size: 0.65rem;
+      padding-top: 4rem;
+      letter-spacing: 0.2rem;
+      line-height: 2.5rem;
+      margin-left: 6vw;
+      margin-right: 2vw;
+
+    }
+    iframe {
+      width: 80vw;
+      height: 45vw;
+      margin-left: 10vw;
+    }
+    
+  }
+
+}
+
+//mobile
+@media screen and(max-width:576px) {
+  body {
+    overflow-x: hidden;
+  }
+  .pc {
+    display: none;
+  }
+  .social {
+    display: flex;
+    background-color: #333333;
+    .logo {
+      border-style: none;
+      width: 45vw;
+      margin-left: 8vw;
+    }
+  }
+  .col img{
+    width: 1vw;
+  }
+  .ig {
+    width: 5vw;
+    padding-top: 3vh;
+  }
+  .medi {
+    font-size: 3vw;
+    padding-left: 3vw;
+    padding-top: 3vh;
+  }
+  .colu {
+    padding-top: 1vh;
+    list-style: none;
+  }
+  .cmark {
+    font-size: 0.4rem;
+    color: #ffffff;
+    margin-left: 2vw;
+    background-color: #333333;
+    margin-top: -5vh !important;
+    width: 98;
+
+
+  }
+  hr {
+    color: #ffffff;
+  }
+  .cm {
+    background-color: #333333;
+  }
+  h1{
+    font-weight: 700;
+    margin-top: 8vh !important;
+    margin-left: 8vw !important;
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+
+  }
+  .theme {
+    img {
+      margin-left: 10vw;
+      margin-top: 2rem;
+      width: 80vw;
+    }
+    p {
+      font-size: 0.65rem;
+      margin-top: 4rem;
+      letter-spacing: 0.2rem;
+      line-height: 2.5rem;
+      margin-left: 6vw;
+      margin-right: 2vw;
+
+    }
+    iframe {
+      width: 80vw;
+      height: 45vw;
+      margin-left: 10vw;
+    }
+    
+  }
+  .logoi {
+    background-color: #333333;
+    width: 100vw;
+    overflow-x: hidden;
+    h1 {
+      padding-top: 3rem;
+      color: #ffffff;
+
+    }
+}
+}

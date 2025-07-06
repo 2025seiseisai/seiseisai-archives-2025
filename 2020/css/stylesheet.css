@@ -1,0 +1,84 @@
+img {
+  vertical-align: baseline;
+}
+
+h1, p, a {
+  line-height: 1.5;
+}
+
+@media screen and (min-width:1081px) {
+
+  .contents-head {
+    padding-right: 10px;
+  }
+
+  .contents-box {
+    padding-top: 10px;
+  }
+
+  .twitter_club {
+    width: 30px;
+    height: 30px;
+  }
+
+  li {
+    margin-top: 5px;
+  }
+
+}
+
+@media screen and (max-width:1080px) and (min-width:601px) {
+
+  .contents-head {
+    padding: 5px 5px 5px 5px;
+    width: calc(100vw * (480 / 1080));
+  }
+
+  .twitter_club {
+    width: 3.5vw;
+    height: 3.5vw;
+  }
+  
+  .description {
+    padding: 10px 25px;
+  }
+}
+
+@media screen and (max-width:600px) {
+
+  .contents-head {
+    width: calc(100vw * (600 / 1080));
+  }
+  
+  .twitter_club {
+    width: 3.5vw;
+    height: 3.5vw;
+  }
+  
+  .contents-title img {
+  	width: calc(100vw * (100 / 1080));
+  	height: calc(100vw * (100 / 1080));
+  }
+  
+  .contents-title span {
+  	font-size: calc(100vw * (50 / 1080));
+  }
+
+  .description {
+    padding: 10px 25px;
+  }
+
+  .description li {
+    font-size: 4vw;
+  }
+
+  .description a {
+    font-size: 3.5vw;
+  }
+
+  .description p {
+    font-size: 3vw;
+  }
+
+}
+
