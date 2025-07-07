@@ -19,43 +19,43 @@ h1, h2, p {
 }
 
 #building_head {
-    background-image: url(/2020/images/schoolmap@6x.png);
+    background-image: url(../images/schoolmap@6x.png);
     background-size: cover;
     background-blend-mode: darken;
 }
 
 #building_info {
-    background-image: url(/2020/images/colum_mono@6x.png);
+    background-image: url(../images/colum_mono@6x.png);
     background-size: cover;
     background-blend-mode: darken;
 }
 
 #event_head {
-    background-image: url(/2020/images/schedule.png);
+    background-image: url(../images/schedule.png);
     background-size: cover;
     background-blend-mode: darken;
 }
 
 #event_info {
-    background-image: url(/2020/images/event@6x.png);
+    background-image: url(../images/event@6x.png);
     background-size: cover;
     background-blend-mode: darken;
 }
 
 #bazaar_map {
-    background-image: url(/2020/images/schoolmap@6x.png);
+    background-image: url(../images/schoolmap@6x.png);
     background-size: cover;
     background-blend-mode: darken;
 }
 
 #bazaar_ticket {
-    background-image: url(/2020/images/sibi.png);
+    background-image: url(../images/sibi.png);
     background-size: cover;
     background-blend-mode: darken;
 }
 
 #bazaar_shop {
-    background-image: url(/2020/images/bazzaar@6x.png);
+    background-image: url(../images/bazzaar@6x.png);
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -151,7 +151,7 @@ h1, h2, p {
 @media screen and (min-width: 1081px) {
     body {
         font-size: 21px;
-        background-image: url(/2020/images/background.png);
+        background-image: url(../images/background.png);
     }
     
     #nav-drawer {
@@ -350,7 +350,7 @@ h1, h2, p {
 @media screen and (max-width: 1080px) and (min-width: 601px) {
     body {
         font-size: 2vw;
-        background-image: url(/2020/images/background.png);
+        background-image: url(../images/background.png);
     }
     
     #nav-drawer {
@@ -554,7 +554,7 @@ h1, h2, p {
 @media screen and (max-width: 600px) {
     body {
         font-size: 3vw;
-        background-image: url(/2020/images/background_smartphone.png);
+        background-image: url(../images/background_smartphone.png);
     }
     
     #title {

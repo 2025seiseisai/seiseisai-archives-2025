@@ -322,7 +322,7 @@
         width: 100%;
         position: absolute;
         top: 0;
-        background-image: url(/2016/images/bgimage.jpg);
+        background-image: url(../images/bgimage.jpg);
         background-size: cover;
         background-position: left bottom;
     }
@@ -380,12 +380,12 @@
         float: left;
     }
     .font div:nth-of-type(1) {
-        background-image: url(/2016/images/s.png);
+        background-image: url(../images/s.png);
         background-position: center;
         background-size: cover;
     }
     .font div:nth-of-type(2) {
-        background-image: url(/2016/images/b.png);
+        background-image: url(../images/b.png);
         background-position: center;
         background-size: cover;
     }
@@ -395,7 +395,7 @@
         position: absolute;
         top: 10%;
         left: 35%;
-        background-image: url(/2016/images/def.png);
+        background-image: url(../images/def.png);
         background-position: center;
         background-size: auto 100%;
         z-index: 10;
@@ -414,7 +414,7 @@
         position: absolute;
         top: 0;
         right: 6%;
-        background-image: url(/2016/images/menu.svg);
+        background-image: url(../images/menu.svg);
         background-position: left;
         background-size: 100% auto;
         background-repeat: no-repeat;
@@ -437,7 +437,7 @@
         position: absolute;
         top: 100%;
         z-index: 1000;
-        background-image: url(/2016/images/test1.png);
+        background-image: url(../images/test1.png);
         background-position: center;
         background-size: cover;
     }
@@ -501,7 +501,7 @@
     .info {
         height: 100%;
         width: 100%;
-        background-image: url(/2016/images/info.jpg);
+        background-image: url(../images/info.jpg);
         background-position: center;
         background-size: cover;
         position: absolute;
@@ -512,7 +512,7 @@
     .acc {
         height: 100%;
         width: 100%;
-        background-image: url(/2016/images/acc.jpg);
+        background-image: url(../images/acc.jpg);
         background-position: center;
         background-size: cover;
         position: absolute;
@@ -533,7 +533,7 @@
     .map {
         height: 100%;
         width: 100%;
-        background-image: url(/2016/images/map.jpg);
+        background-image: url(../images/map.jpg);
         background-position: center;
         background-size: cover;
         position: absolute;
@@ -544,7 +544,7 @@
     .event {
         height: 100%;
         width: 100%;
-        background-image: url(/2016/images/event.jpg);
+        background-image: url(../images/event.jpg);
         background-position: center;
         background-size: cover;
         position: absolute;
@@ -555,7 +555,7 @@
     .sp {
         height: 100%;
         width: 100%;
-        background-image: url(/2016/images/spe.jpg);
+        background-image: url(../images/spe.jpg);
         background-position: center;
         background-size: cover;
         position: absolute;
@@ -1214,7 +1214,7 @@
         width: 100%;
         position: absolute;
         top: 0;
-        background-image: url(/2016/images/bgimage.jpg);
+        background-image: url(../images/bgimage.jpg);
         background-size: cover;
         background-position: left bottom;
     }
@@ -1299,7 +1299,7 @@
     .info {
         height: 100%;
         width: 100%;
-        background-image: url(/2016/images/info.jpg);
+        background-image: url(../images/info.jpg);
         background-position: center;
         background-size: cover;
         position: relative;
@@ -1311,7 +1311,7 @@
     .acc {
         height: 100%;
         width: 100%;
-        background-image: url(/2016/images/acc.jpg);
+        background-image: url(../images/acc.jpg);
         background-position: center;
         background-size: cover;
         position: relative;
@@ -1332,7 +1332,7 @@
     .map {
         height: 100%;
         width: 100%;
-        background-image: url(/2016/images/map.jpg);
+        background-image: url(../images/map.jpg);
         background-position: center center;
         background-size: 100% auto;
         position: relative;
@@ -1344,7 +1344,7 @@
     .event {
         height: 100%;
         width: 100%;
-        background-image: url(/2016/images/event.jpg);
+        background-image: url(../images/event.jpg);
         background-position: center;
         background-size: cover;
         position: relative;
@@ -1356,7 +1356,7 @@
     .sp {
         height: 100%;
         width: 100%;
-        background-image: url(/2016/images/spe.jpg);
+        background-image: url(../images/spe.jpg);
         background-position: center;
         background-size: cover;
         position: relative;

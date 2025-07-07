@@ -331,7 +331,7 @@ main ul{ /*禁止事項位置*/
     opacity: 0;
   }
   .splide .splide_arrow.arrow--next {
-    background-image: url(/2024/special/splide/arrow_right.svg);
+    background-image: url(splide/arrow_right.svg);
 
   }
 
@@ -377,7 +377,7 @@ main ul{ /*禁止事項位置*/
 
   
   .splide .splide_arrow.arrow--prev {
-    background-image: url(/2024/special/splide/arrow_left.svg);
+    background-image: url(splide/arrow_left.svg);
   }
   .wallpapers img.dl_button, .icons img.dl_button {
     transition: transform 0.5s, opacity 0.3s;

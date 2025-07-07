@@ -27,7 +27,7 @@ body:before{
     z-index:-1;
     width:100%;
     height:100vh;
-    background:url(/2019/back_web.png) center no-repeat;
+    background:url(back_web.png) center no-repeat;
     background-size:cover;
     margin: 0px;
     background-position: left bottom;
@@ -1162,7 +1162,7 @@ body:before{
     z-index:-1;
     width:100%;
     height:100vh;
-    background:url(/2019/back_web.png) center no-repeat;
+    background:url(back_web.png) center no-repeat;
     background-size:cover;
     background-position: bottom left;
     margin: 0px;
@@ -2296,7 +2296,7 @@ body:before{
     z-index:-1;
     width:100%;
     height:100vh;
-    background:url(/2019/back_left.png) center no-repeat;
+    background:url(back_left.png) center no-repeat;
     background-size:cover;
     background-position: bottom left;
     margin: 0px;
@@ -3431,7 +3431,7 @@ body:before{
     z-index:-1;
     width:100%;
     height:100vh;
-    background:url(/2019/back_left.png) center no-repeat;
+    background:url(back_left.png) center no-repeat;
     background-size:cover;
     background-position: bottom left;
     margin: 0px;
