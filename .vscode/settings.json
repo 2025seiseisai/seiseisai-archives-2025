@@ -5,4 +5,7 @@
     "stylelint.enable": false,
     "eslint.enable": false,
     "prettier.enable": false,
+    "files.eol": "\n",
+    "code-runner.cwd": "${workspaceFolder}",
+    "code-runner.runInTerminal": true,
 }

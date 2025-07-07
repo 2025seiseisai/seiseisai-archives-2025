@@ -27,7 +27,7 @@ def convert_path(match, file_path: Path):
         quote = match.group(3)
 
     # パスが空、データURI、絶対URLの場合は変換しない
-    if not path_str or path_str.startswith(('data:', 'http:', 'https:', '//')):
+    if not path_str or path_str.startswith(('data:', 'http:', 'https:', '//', "javascript:", "#")):
         return full_match
 
     # ルート相対パスの場合
