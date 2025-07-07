@@ -280,7 +280,7 @@ h6 {
 }
 
 .img1 {
-	background-image: url('../images/a1.png');
+	background-image: url('/2017/images/a1.png');
 	width: 30px;
 	height: 36px;
 	position:absolute;
@@ -289,7 +289,7 @@ h6 {
 }
 
 .img2 {
-	background-image: url('../images/a2.png');
+	background-image: url('/2017/images/a2.png');
 	width: 42px;
 	height: 50px;
 	position:absolute;
@@ -297,7 +297,7 @@ h6 {
 	background-size: 100% 100%;
 }
 .img3 {
-	background-image: url('../images/a3.png');
+	background-image: url('/2017/images/a3.png');
 	width: 48px;
 	height: 57px;
 	position:absolute;
@@ -305,7 +305,7 @@ h6 {
 	background-size: 100% 100%;
 }
 .img4 {
-	background-image: url('../images/b1.png');
+	background-image: url('/2017/images/b1.png');
 	width: 36px;
 	height: 37px;
 	position:absolute;
@@ -313,7 +313,7 @@ h6 {
 	background-size: 100% 100%;
 }
 .img5 {
-	background-image: url('../images/b2.png');
+	background-image: url('/2017/images/b2.png');
 	width: 50px;
 	height: 51px;
 	position:absolute;
@@ -321,7 +321,7 @@ h6 {
 	background-size: 100% 100%;
 }
 .img6 {
-	background-image: url('../images/b3.png');
+	background-image: url('/2017/images/b3.png');
 	width: 58px;
 	height: 58px;
 	position:absolute;
@@ -329,7 +329,7 @@ h6 {
 	background-size: 100% 100%;
 }
 .img7 {
-	background-image: url('../images/c1.png');
+	background-image: url('/2017/images/c1.png');
 	width: 36px;
 	height: 36px;
 	position:absolute;
@@ -337,7 +337,7 @@ h6 {
 	background-size: 100% 100%;
 }
 .img8 {
-	background-image: url('../images/c2.png');
+	background-image: url('/2017/images/c2.png');
 	width: 50px;
 	height: 50px;
 	position:absolute;
@@ -345,7 +345,7 @@ h6 {
 	background-size: 100% 100%;
 }
 .img9 {
-	background-image: url('../images/c3.png');
+	background-image: url('/2017/images/c3.png');
 	width: 56px;
 	height: 56px;
 	position:absolute;
@@ -353,7 +353,7 @@ h6 {
 	background-size: 100% 100%;
 }
 .img10 {
-	background-image: url('../images/d1.png');
+	background-image: url('/2017/images/d1.png');
 	width: 27px;
 	height: 36px;
 	position:absolute;
@@ -362,7 +362,7 @@ h6 {
 	background-size: 100% 100%;
 }
 .img11 {
-	background-image: url('../images/d2.png');
+	background-image: url('/2017/images/d2.png');
 	width: 37px;
 	height: 51px;
 	position:absolute;
@@ -372,7 +372,7 @@ h6 {
 }
 
 .img12 {
-	background-image: url('../images/d3.png');
+	background-image: url('/2017/images/d3.png');
 	width: 43px;
 	height: 57px;
 	position:absolute;

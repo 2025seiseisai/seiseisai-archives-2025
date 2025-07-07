@@ -124,7 +124,7 @@ li {
 /*--イベント情報関連------------------------------------------*/
 
 #h2_event {
-    background-image: url(../img/vector_for_experiment/svg.svg);
+    background-image: url(/2024/exhibition/img/vector_for_experiment/svg.svg);
     background-repeat: no-repeat;
     height: 32px;
     background-size: 100% 16px;
@@ -163,7 +163,7 @@ li {
 /*--部誌関連-------------------------------------------------*/
 
 #h2_journal {
-    /*background-image: url(../img/h2-journal.svg);
+    /*background-image: url(/2024/exhibition/img/h2-journal.svg);
     background-repeat: no-repeat;*/
     height: 32px;
     /*background-size: 100% 16px;
@@ -231,7 +231,7 @@ li {
 /*--SNS関連--------------------------------------------------*/
 
 #h2_SNS {
-    background-image: url(../img/h2-SNS.svg);
+    background-image: url(/2024/exhibition/img/h2-SNS.svg);
     background-repeat: no-repeat;
     height: 32px;
     background-size: 100% 16px;

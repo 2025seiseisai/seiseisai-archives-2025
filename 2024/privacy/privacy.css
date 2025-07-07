@@ -1,5 +1,5 @@
 main{
-    background-image: url(back.jpeg);
+    background-image: url(/2024/privacy/back.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -8,7 +8,7 @@ main{
 }
 @media screen and (max-width: 1024px){
     main{
-        background-image: url(m_back.jpeg);
+        background-image: url(/2024/privacy/m_back.jpeg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

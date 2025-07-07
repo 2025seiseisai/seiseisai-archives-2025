@@ -45,7 +45,7 @@ a {
     position: relative;
     overflow: hidden;
     margin-bottom: 25vh;
-    background-image: url(../background_desktop.jpg);
+    background-image: url(/2021/background_desktop.jpg);
     background-size: cover;
     transition: 2s;
   }
@@ -407,7 +407,7 @@ a {
     position: relative;
     overflow: hidden;
     margin-bottom: 10vh;
-    background-image: url(../background.jpg);
+    background-image: url(/2021/background.jpg);
     background-size: cover;
   }
   header h1 {
