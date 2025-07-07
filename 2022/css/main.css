@@ -9977,7 +9977,7 @@ li a {
 }
 
 /*.top-page{
-    background-image: url(../background.svg);
+    background-image: url(/2022/background.svg);
     position: relative;
     min-height: 100vh;
     background-size: cover;
@@ -10039,7 +10039,7 @@ li a {
   }
   .date {
     width: 75vw;
-    background-image: url(../bg_v3_pc.svg);
+    background-image: url(/2022/bg_v3_pc.svg);
     background-size: cover;
   }
   .linkshu {
@@ -10166,7 +10166,7 @@ li a {
     font-size: 3rem;
   }
   body {
-    background-image: url(../bg_v2.svg);
+    background-image: url(/2022/bg_v2.svg);
     background-position: 40% 40%;
     background-size: cover;
     width: 100vw;
@@ -10219,7 +10219,7 @@ li a {
     margin-left: 46vw;
   }
   body {
-    background-image: url(../bg_v2.svg);
+    background-image: url(/2022/bg_v2.svg);
     background-position: 40% 40%;
     background-size: cover;
     width: 100vw;

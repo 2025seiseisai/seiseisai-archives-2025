@@ -30,7 +30,7 @@ body:before{
 /*-----------------------------------------------*/
 body{
 	font-size:14px;
-	background-image:url("image/background.jpg");
+	background-image:url("/2011/image/background.jpg");
 	background-repeat:repeat-x;
 	background-position:center top;
 	background-color:#1E72B0;
@@ -39,30 +39,30 @@ body{
 #wrap{
 	width:800px;
 	margin:auto;
-	background-image:url("image/main.jpg");
+	background-image:url("/2011/image/main.jpg");
 	background-repeat:repeat-y;
 }
 #header{
 	width:800px;
 	height:190px;
-	background-image:url("image/header.jpg");
+	background-image:url("/2011/image/header.jpg");
 	background-repeat:no-repeat;	
 }
 #menu{
 	width:800px;
 	height:30px;
-	background-image:url("image/menu.jpg");
+	background-image:url("/2011/image/menu.jpg");
 	background-repeat:no-repeat;
 }
 #main{
 	width:800px;
-	background-image:url("image/main_top.jpg");
+	background-image:url("/2011/image/main_top.jpg");
 	background-repeat:no-repeat;	
 }
 #footer{
 	clear:both;
 	margin:-170px auto 0;
-	background-image:url("image/footer_back.jpg");
+	background-image:url("/2011/image/footer_back.jpg");
 	background-repeat:no-repeat;
 	background-position:center center;
 }
@@ -70,7 +70,7 @@ body{
 	width:800px;
 	height:170px;
 	margin:0 auto;
-	background-image:url("image/footer.jpg");
+	background-image:url("/2011/image/footer.jpg");
 	background-repeat:no-repeat;
 	clear:both;
 }

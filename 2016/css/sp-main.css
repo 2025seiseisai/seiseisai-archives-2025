@@ -224,7 +224,7 @@ header {
 .slide {
     width: 100%;
     height: 200px;
-    background-image: url(../images/sp-bgimage.jpg);
+    background-image: url(/2016/images/sp-bgimage.jpg);
     background-size: cover;
     background-position: left bottom;
 }

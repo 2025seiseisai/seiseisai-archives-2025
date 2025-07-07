@@ -2,9 +2,9 @@ import re
 from pathlib import Path
 
 # 処理の起点となるディレクトリ
-BASE_DIR = Path('2011')
+BASE_DIR = Path('2024')
 # 絶対パスのプレフィックス
-ABS_PREFIX = '/2011/'
+ABS_PREFIX = '/2024/'
 
 # href="...", src="..." and url(...) を見つけるための正規表現
 # グループ1: 属性 (href, src) または "url"
