@@ -1,5 +1,5 @@
 function iframeResize(){
-var PageHight = document.body.scrollHeight + 30; // ƒy[ƒW‚Ì‚‚³‚ğæ“¾
-window.parent.document.getElementById('disp').style.height = PageHight + 'px'; // iframe‚Ì‚‚³‚ğ•ÏX
+var PageHight = document.body.scrollHeight + 30; // ãƒšãƒ¼ã‚¸ã®é«˜ã•ã‚’å–å¾—
+window.parent.document.getElementById('disp').style.height = PageHight + 'px'; // iframeã®é«˜ã•ã‚’å¤‰æ›´
 }
 window.onload = iframeResize;
