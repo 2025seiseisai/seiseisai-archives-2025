@@ -1,0 +1,37 @@
+@import "../../css/util"
+@import "../../css/utilpc"
+
+@media screen and (min-width: 960px)
+  #underconstruction
+    background-color: $font
+    width: pc(1030vw * 0.8)
+    height: pc(1030vw * 0.6)
+    display: flex
+    justify-content: center
+    margin-bottom: 3vh
+  #underconstruction-img
+    width: 80%
+    position: absolute
+    left: 0
+    right: 0
+    margin: auto
+
+//@media (min-width: 600px) and (max-width: 960px)
+  $width: 600
+
+
+
+@media screen and (max-width: 960px)
+  #underconstruction
+    background-color: $font
+    width: 100vw - (2 * xd(30vw))
+    //height: 100vw - (2 * xd(30vw))
+    display: flex
+    justify-content: center
+    margin-bottom: 3vh
+  #underconstruction-img
+    width: 80%
+    // position: absolute
+    // left: 0
+    // right: 0
+    // margin: auto

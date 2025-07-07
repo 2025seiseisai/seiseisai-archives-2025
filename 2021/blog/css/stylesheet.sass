@@ -1,0 +1,329 @@
+@import "../../css/util"
+@import "../../css/utilpc"
+
+@media screen and (min-width: 960px)
+  $width: 1366
+  $height: 768
+
+  header
+    height: pch(200vh)
+    position: relative
+    overflow: hidden
+    //margin-bottom: 25vh
+
+  #title
+    +titlepc
+
+  nav
+    display: none
+
+  aside
+    +aside
+
+  #logo
+    width: pc(70vw)
+    height: pc(70vw)
+    position: relative
+    top: pch(60vh)
+    left: 0
+    right: 0
+    margin: auto
+    border-radius: 50%
+    background-color: $font
+    img
+      width: pc(67vw)
+      height: pc(67vw)
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      margin: auto
+
+  main
+    overflow: hidden
+    background-image: url(../../background_desktop.jpg)
+    background-size: contain
+    background-repeat: repeat
+
+  #main, footer
+    width: pc(1030vw)
+    position: relative
+    left: pc(75vw)
+
+  #main
+    overflow: visible
+
+  main
+    padding-top: pch(30vh)
+    h1
+      font-size: pc(39vw)
+      line-height: 125%
+      //margin-top: xdh(132vh)
+      //position: absolute
+      //top: pch(132vh)
+
+    h1::after
+      width: pc(1030vw)
+      height: pc(7.5vw)
+      content: ""
+      display: block
+      position: relative
+      left: pc(-15vw)
+    h1.active::after
+      animation: sdh 1.5s cubic-bezier(1, 0, 0, 1)
+      +sdh
+
+    h1.green::after
+      background-color: $green
+    h1.pink::after
+      background-color: $pink
+    h1.orange::after
+      background-color: $orange
+
+    article
+      width: 80%
+      margin-bottom: 25vh
+      position: relative
+
+      h2
+        +sans-serif
+        font-size: pc(17vw)
+        margin: pch(90vh) 0 pch(15vh) 0
+      h2.green
+        color: $green
+      h2.pink
+        color: $pink
+      h2.orange
+        color: $orange
+
+      p
+        font-size: pc(20vw)
+        line-height: pc(32vw)
+
+  #video
+    h1
+      font-size: xd(25vw)
+
+  #about
+    h1
+      font-size: pc(30vw)
+
+  footer
+    +footerpc
+
+  #copylight
+    +copylightpc
+
+  .underline-green
+    border-bottom: 0.25vw solid $green
+
+  .underline-orange
+    border-bottom: 0.25vw solid $orange
+
+  .underline-pink
+    border-bottom: 0.25vw solid $pink
+
+  p
+    margin-top: 1.5vh
+
+  .blog-label
+    height: pch(105vh)
+    width: 100%
+    position: relative
+    margin-top: pc(40vw)
+    //box-shadow: 2vw 2vw $font
+    //transition: all 0.5s 0s ease
+    left: pc(-15vw)
+    h3, p, img
+      position: absolute
+    h3
+      font-size: pc(22vw)
+      left: pc(13vw)
+      top: pc(5vw)
+    p
+      font-size: pc(15vw)
+      left: pc(13vw)
+      //top: xd(53vw)
+      margin-bottom: pc(2vw)
+    .date
+      top: pc(39vw)
+    .place
+      top: pc(61vw)
+    span
+      font-size: pc(12vw)
+    img
+      height: pch(75vh)
+      right: pch(15vh)
+      top: pch(15vh)
+
+  .label-green
+    background-color: $green
+
+  .label-orange
+    background-color: $orange
+
+  .label-pink
+    background-color: $pink
+
+  .label-others
+    background-color: $decoration
+
+  #longname
+    font-size: pc(17vw)
+
+
+//@media (min-width: 600px) and (max-width: 960px)
+  $width: 600
+
+
+
+@media screen and (max-width: 960px)
+  $width: 375
+  $height: 667
+  h1, h2, h3, h4, h5, h6, p, li, a
+    +serif
+
+  nav
+    +navi
+
+  aside
+    display: none
+
+  header
+    height: xdh(100vh)
+
+  #title
+    +title
+
+  main
+    overflow: hidden
+
+  #main, footer
+    width: 100vw - (2 * xd(30vw))
+    margin: 0 auto
+
+  #main
+    overflow: visible
+
+
+  main
+    background-image: url(../../background.jpg)
+    background-size: contain
+    background-repeat: repeat
+    padding-bottom: 25vh
+
+    h1
+      font-size: xd(39vw)
+      line-height: 75%
+      margin-top: xd(39vw / 8)
+      padding-top: 5vh
+      position: relative
+      z-index: 1
+
+    h1::after
+      width: (100vw - (2 * xd(30vw))) * 1.06
+      height: xd(10vw)
+      content: ""
+      display: block
+      position: relative
+      left: (100vw - (2 * xd(30vw))) * -0.03
+      z-index: -1
+      animation: sdh 1.5s cubic-bezier(1, 0, 0, 1)
+      +sdh
+
+    h1.green::after
+      background-color: $green
+    h1.pink::after
+      background-color: $pink
+    h1.orange::after
+      background-color: $orange
+
+    article
+      padding-top: xdh(20vh)
+      width: 100%
+      position: relative
+
+      h2
+        +sans-serif
+        font-size: xd(17vw)
+        margin: xdh(20vh) 0 xdh(10vh) 0
+
+      h2.green
+        color: $green
+      h2.pink
+        color: $pink
+      h2.orange
+        color: $orange
+
+      p
+        font-size: xd(13vw)
+        line-height: xd(21vw)
+
+  #about
+      font-size: xd(30vw)
+
+  footer
+    +footer
+
+  #copylight
+    +copylight
+
+  .underline-green
+    border-bottom: 0.5vw solid $green
+
+  .underline-orange
+    border-bottom: 0.5vw solid $orange
+
+  .underline-pink
+    border-bottom: 0.5vw solid $pink
+
+  p
+    margin-top: 1.5vh
+
+  .blog-label
+    height: (100vw - (2 * xd(30vw))) * 1.06 * 0.33
+    width: (100vw - (2 * xd(30vw))) * 1.06
+    position: relative
+    left: (100vw - (2 * xd(30vw))) * -0.03
+    margin-top: xd(40vw)
+    //box-shadow: 2vw 2vw $font
+    //transition: all 0.5s 0s ease
+    h3, p, img
+      position: absolute
+    h3
+      font-size: xd(22vw)
+      left: (100vw - (2 * xd(30vw))) * 0.05
+      top: (100vw - (2 * xd(30vw))) * 0.03 - 1.5vw
+    p
+      font-size: xd(15vw)
+      left: (100vw - (2 * xd(30vw))) * 0.05
+      //top: xd(53vw)
+      margin-bottom: xd(2vw)
+    .date
+      top: xd(41.5vw)
+    .place
+      top: xd(63.5vw)
+    span
+      font-size: xd(12vw)
+    img
+      height: (100vw - (2 * xd(30vw))) * 1.06 * 0.20
+      right: (100vw - (2 * xd(30vw))) * 0.06
+      top: (100vw - (2 * xd(30vw))) * 1.06 * 0.065
+  // .blog-label:hover
+  //   box-shadow: 0vw 0vw
+
+  .label-green
+    background-color: $green
+
+  .label-orange
+    background-color: $orange
+
+  .label-pink
+    background-color: $pink
+
+  .label-others
+    background-color: $decoration
+
+  #longname
+    font-size: xd(17vw)

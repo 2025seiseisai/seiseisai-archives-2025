@@ -1,0 +1,155 @@
+@mixin aboutfont
+  font:
+    family: dnp-shuei-shogomincho-std, serif
+    weight: 700
+    style: normal
+  color: #fff9e6
+
+
+*
+  padding: 0vw
+  margin: 0vw
+
+body
+  background-color: #221202
+
+@media screen and (min-width: 960px)
+  $size: 1366
+  @function xd($val)
+    @return $val / $size * 100
+
+  h1
+    +aboutfont
+
+  h2
+    +aboutfont
+
+  p
+    +aboutfont
+
+  a
+    +aboutfont
+
+  body
+    padding-left: xd(100vw)
+
+  div
+    width: xd(280vw)
+
+  #first
+    margin-top: xd(48vw)
+    margin-bottom: xd(90vw)
+    float: left
+
+  #second
+    margin-bottom: xd(175vw)
+
+  #circle
+    width: xd(400vw)
+    height: xd(400vw)
+    border-radius: 50%
+    background-color: #fff9e6
+    float: right
+    margin-right: xd(200vw)
+    margin-top: xd(160vw)
+
+  footer
+    margin-bottom: 5vw
+
+@media (min-width: 600px) and (max-width: 960px)
+  $size: 600
+  @function xd($val)
+    @return $val / $size * 100
+
+  h1
+    +aboutfont
+    padding:
+      bottom: xd(40vw)
+    font:
+      size: xd(20vw)
+
+  h2
+    +aboutfont
+    padding:
+      bottom: xd(20vw)
+    font:
+      size: xd(15vw)
+
+  p
+    +aboutfont
+    font:
+      size: xd(10vw)
+    line-height: xd(18vw)
+
+  a
+    +aboutfont
+
+
+  body
+    padding-left: xd(48vw)
+
+  div
+    width: xd(280vw)
+
+  #first
+    margin-top: xd(48vw)
+    margin-bottom: xd(90vw)
+
+  #second
+    margin-bottom: xd(175vw)
+
+  #circle
+    height: 0vw
+    width: 0vw
+
+  footer
+    margin-bottom: 5vw
+
+@media screen and (max-width: 600px)
+  $size: 375
+  @function xd($val)
+    @return $val / $size * 100
+
+  h1
+    +aboutfont
+    padding:
+      bottom: xd(40vw)
+    font:
+      size: xd(20vw)
+
+  h2
+    +aboutfont
+    padding:
+      bottom: xd(20vw)
+    font:
+      size: xd(15vw)
+
+  p
+    +aboutfont
+    font:
+      size: xd(10vw)
+    line-height: xd(18vw)
+
+  a
+    +aboutfont
+
+
+  body
+    padding-left: xd(48vw)
+
+  div
+    width: xd(280vw)
+
+  #first
+    margin-top: xd(48vw)
+    margin-bottom: xd(90vw)
+
+  #second
+    margin-bottom: xd(175vw)
+
+  #circle
+    height: 0vw
+    width: 0vw
+
+  footer
+    margin-bottom: 5vw

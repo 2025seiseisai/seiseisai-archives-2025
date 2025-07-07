@@ -1,0 +1,90 @@
+* {
+  padding: 0vw;
+  margin: 0vw;
+}
+
+body {
+  background-color: #221202;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+  font-family: dnp-shuei-shogomincho-std, serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff9e6;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  padding: 0vw;
+  margin: 0vw;
+}
+
+body {
+  background-color: #221202;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+  font-family: dnp-shuei-shogomincho-std, serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff9e6;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 960px) {
+  #tshirt-img {
+    border: 9px solid #fff9e6;
+    width: 75.6vw;
+  }
+
+  .underline {
+    border-bottom: 0.25vw solid #bd481f;
+  }
+
+  #links {
+    border-bottom: 0.25vw solid #bd481f;
+  }
+
+  p {
+    margin-top: 1.5vh;
+  }
+
+  .cost {
+    margin-top: 0vh;
+    margin-bottom: 1.5vh;
+    border-bottom: 0.25vw solid #bd481f;
+  }
+}
+@media screen and (max-width: 960px) {
+  #tshirt-img {
+    border: 9px solid #fff9e6;
+    width: 75.6vw;
+  }
+
+  .underline {
+    border-bottom: 0.5vw solid #bd481f;
+  }
+
+  #links {
+    border-bottom: 0.5vw solid #bd481f;
+  }
+
+  p {
+    margin-top: 1.5vh;
+  }
+
+  .cost {
+    margin-top: 0vh;
+    margin-bottom: 1.5vh;
+    border-bottom: 0.5vw solid #bd481f;
+  }
+}
+
+/*# sourceMappingURL=stylesheet.css.map */

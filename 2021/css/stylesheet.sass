@@ -1,0 +1,483 @@
+@import "util"
+@import "utilpc"
+
+@media screen and (min-width: 960px)
+  $width: 1366
+  $height: 768
+
+  header
+    width: 100vw
+    height: 100vh
+    position: relative
+    overflow: hidden
+    margin-bottom: 25vh
+    background-image: url(../background_desktop.jpg)
+    background-size: cover
+    transition: 2s
+    h1
+      font-size: pc(40vw)
+      line-height: 100%
+    h2
+      font-size: pc(22vw)
+      line-height: pc(29vw)
+    h3
+      font-size: pc(17vw)
+      line-height: 100%
+      margin-bottom: 0.7vh
+    p
+      font-size: pc(22vw)
+      line-height: pc(29vw)
+    span
+      font-size: pc(17vw)
+
+  #date, #circle
+    position: absolute
+
+  #title
+    +titlepc
+
+  #date
+    top: pch(610vh)
+    left: pc(75vw)
+
+  #date::after
+    width: 0.05vw
+    height: pch(55vh)
+    margin-top: pch(5vh)
+    content: ""
+    position: absolute
+    bottom: pch(-82vh)
+    left: 50%
+    background-color: $font
+    animation: sdl 1.5s cubic-bezier(1, 0, 0, 1) infinite
+    +sdl
+
+
+  #circle
+    width: pc(400vw)
+    height: pc(400vw)
+    border-radius: 50%
+    background-color: $font
+    top: pch(146vh)
+    left: pc(645vw)
+
+  // #circle::before
+  //   content: ""
+  //   display: block
+  //   position: absolute
+  //   top: 0
+  //   left: 0
+  //   width: 100%
+  //   height: 100%
+  //   border-radius: 50%
+  //   background-repeat: repeat-x
+  //   background-image: url(../animation.png)
+  //   background-position: 0 0
+  //   background-size: auto 100%
+  //   transform: rotate(-60deg)
+  //   animation: rotation 80s linear infinite
+  //   will-change: scroll-position
+  //   @keyframes rotation
+  //     0%
+  //       background-position: 0 0
+  //     100%
+  //       background-position: 200% 0
+
+  nav
+    display: none
+
+  aside
+    +aside
+
+  #logo
+    width: pc(70vw)
+    height: pc(70vw)
+    position: relative
+    top: pch(60vh)
+    left: 0
+    right: 0
+    margin: auto
+    border-radius: 50%
+    background-color: $font
+    img
+      width: pc(67vw)
+      height: pc(67vw)
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      margin: auto
+
+  main
+    overflow: hidden
+
+  #main, footer
+    width: pc(1030vw)
+    position: relative
+    left: pc(75vw)
+
+  #main
+    overflow: visible
+
+  main
+    section
+      width: 100%
+      height: 80vh
+      position: relative
+
+      h1
+        font-size: pc(39vw)
+        line-height: 125%
+        //margin-top: xdh(132vh)
+        //position: absolute
+        //top: pch(132vh)
+
+      h1::after
+        width: pc(1030vw)
+        height: pc(7.5vw)
+        content: ""
+        display: block
+        position: relative
+        left: pc(-15vw)
+      h1.active::after
+        animation: sdh 1.5s cubic-bezier(1, 0, 0, 1)
+        +sdh
+
+      p
+        font-size: pc(13vw)
+        line-height: pc(21vw)
+
+      .disc
+        width: pc(340vw)
+        //margin-top: pch(33vh)
+        position: absolute
+        top: pch(100vh)
+
+
+      .circle
+        width: pc(400vw)
+        height: pc(400vw)
+        background-color: $decoration
+        border-radius: 50%
+        position: absolute
+        top: 0
+        //top: xd(-100vw)
+        z-index: -99
+
+      .c-left
+        left: 0
+
+      .c-right
+        right: 0
+
+      .rectangle
+        width: 50%
+        height: pc(30vw)
+        background-color: $base
+        position: absolute
+        top: pch(250vh)
+        left: 0
+        transition: 0.5s ease-out
+
+        h2
+          font-size: pc(20vw)
+          line-height: pc(30vw)
+          position: absolute
+          top: 0
+          left: 0
+
+        h2::after
+          width: 120%
+          height: pc(2vw)
+          content: ""
+          display: block
+          position: relative
+          left: -5%
+          transition: 0.7s ease-out
+
+        h2:hover::after
+          width: 160%
+          // animation: sdh 1.5s cubic-bezier(1, 0, 0, 1)
+          // +sdh
+        h2.active::after
+          animation: sdh 1.5s cubic-bezier(1, 0, 0, 1)
+          +sdh
+
+
+      // color settings
+      h1.green::after
+        background-color: $green
+      h1.pink::after
+        background-color: $pink
+      h1.orange::after
+        background-color: $orange
+
+      h2.green::after
+        background-color: $green
+      h2.pink::after
+        background-color: $pink
+      h2.orange::after
+        background-color: $orange
+
+      .rectangle
+        background-color: transparent
+
+      // hover animation
+      //h2:hover
+      //   // 72vw -> 42vw
+      //   right: xd(42vw)
+      // > div
+      //   // 60vw -> 30vw
+      //   width: xd(30vw)
+
+
+
+
+  #video
+    h1
+      font-size: xd(25vw)
+
+  #about
+    h1
+      font-size: pc(30vw)
+
+  footer
+    +footerpc
+
+  #copylight
+    +copylightpc
+
+
+//@media (min-width: 600px) and (max-width: 960px)
+  $width: 600
+
+
+
+@media screen and (max-width: 960px)
+  $width: 375
+  $height: 667
+
+  header
+    width: 100vw
+    height: 100vh
+    position: relative
+    overflow: hidden
+    margin-bottom: 10vh
+    background-image: url(../background.jpg)
+    background-size: cover
+
+    h1
+      font-size: xd(27vw)
+      line-height: 100%
+    h2
+      font-size: xd(17vw)
+      line-height: xd(29vw)
+    h3
+      font-size: xd(13vw)
+      line-height: 100%
+      margin-bottom: 0.7vh
+    p
+      font-size: xd(17vw)
+      line-height: xd(22vw)
+    span
+      font-size: xd(13vw)
+
+  #date, #circle
+    position: absolute
+
+  #title
+    +title
+
+  #date
+    top: xdh(536vh)
+    left: xd(30vw)
+
+  #date::after
+    width: 0.25vw
+    height: xd(56vw)
+    margin-top: xd(5vw)
+    content: ""
+    position: absolute
+    bottom: xd(-61vw)
+    left: 50%
+    // left: 40%
+    background-color: $font
+    animation: sdl 1.5s cubic-bezier(1, 0, 0, 1) infinite
+    +sdl
+
+
+  #circle
+    width: xd(400vw)
+    height: xd(400vw)
+    border-radius: 50%
+    background-color: $font
+    top: xdh(79vh)
+    left: xd(116vw)
+
+  // #circle::before
+  //   content: ""
+  //   display: block
+  //   position: absolute
+  //   top: 0
+  //   left: 0
+  //   width: 100%
+  //   height: 100%
+  //   border-radius: 50%
+  //   background-repeat: repeat-x
+  //   background-image: url(../animation.png)
+  //   background-position: 0 0
+  //   background-size: auto 100%
+  //   transform: rotate(-60deg)
+  //   animation: rotation 80s linear infinite
+  //   will-change: scroll-position
+  //   @keyframes rotation
+  //     0%
+  //       background-position: 0 0
+  //     100%
+  //       background-position: 200% 0
+
+  nav
+    +navi
+
+  aside
+    display: none
+
+  main
+    overflow: hidden
+
+  #main, footer
+    width: 100vw - (2 * xd(30vw))
+    margin: 0 auto
+
+  #main
+    overflow: visible
+
+  main
+    section
+      width: 100%
+      height: 80vh
+      position: relative
+
+      h1
+        font-size: xd(39vw)
+        line-height: 75%
+        //margin-top: xdh(132vh)
+        position: absolute
+        top: xdh(132vh)
+
+      h1::after
+        width: (100vw - (2 * xd(30vw))) * 1.06
+        height: xd(10vw)
+        content: ""
+        display: block
+        position: relative
+        left: (100vw - (2 * xd(30vw))) * -0.03
+        z-index: -1
+      h1.active::after
+        animation: sdh 1.5s cubic-bezier(1, 0, 0, 1)
+        +sdh
+
+      p
+        font-size: xd(13vw)
+        line-height: xd(21vw)
+
+      .disc
+        width: xd(220vw)
+        margin-top: xd(33vw)
+        position: relative
+        top: xd(200vw)
+        z-index: 1
+
+
+      .circle
+        width: xd(400vw)
+        height: xd(400vw)
+        background-color: $decoration
+        border-radius: 50%
+        position: absolute
+        top: 0
+        //top: xd(-100vw)
+        z-index: -99
+
+      .c-left
+        left: xd(-230vw)
+
+      .c-right
+        right: xd(-230vw)
+
+      .rectangle
+        width: xd(250vw)
+        height: xd(125vw)
+        //float: right
+        position: absolute
+        top: xd(269vw)
+        right: 0
+        transition: 0.5s ease-out
+
+        h2
+          font-size: xd(16vw)
+          line-height: xd(24vw)
+          position: absolute
+          bottom: xd(10vw)
+          right: xd(72vw)
+          border-bottom: 0.5vw solid $font
+          transition: 0.5s ease-out
+        > div
+            width: xd(60vw)
+            height: xd(24vw)
+            position: absolute
+            bottom: xd(10vw)
+            right: xd(12vw)
+            border-bottom: 0.5vw solid $font
+            transition: 0.5s ease-out
+            div
+              width: xd(20vw)
+              height: 0.5vw
+              position: absolute
+              bottom: 0.8vw
+              right: -0.2vw
+              background-color: $font
+              transform: rotate(30deg)
+
+
+      // color settings
+      h1.green::after
+        background-color: $green
+      h1.pink::after
+        background-color: $pink
+      h1.orange::after
+        background-color: $orange
+
+      .rectangle.green
+        background-color: $green
+      .rectangle.pink
+        background-color: $pink
+      .rectangle.orange
+        background-color: $orange
+
+      // hover animation
+      .rectangle:hover
+        h2
+          // 72vw -> 42vw
+          right: xd(42vw)
+        > div
+          // 60vw -> 30vw
+          width: xd(30vw)
+
+
+
+
+  #video
+    h1
+      font-size: xd(25vw)
+
+  #about
+    h1
+      font-size: xd(30vw)
+
+  footer
+    +footer
+
+  #copylight
+    +copylight

@@ -1,0 +1,429 @@
+@import "../../css/util"
+@import "../../css/utilpc"
+
+@media screen and (min-width: 960px)
+  $width: 1366
+  $height: 768
+
+  header
+    height: pch(200vh)
+    position: relative
+    overflow: hidden
+    //margin-bottom: 25vh
+
+  #title
+    +titlepc
+
+  nav
+    display: none
+
+  aside
+    +aside
+
+  #logo
+    width: pc(70vw)
+    height: pc(70vw)
+    position: relative
+    top: pch(60vh)
+    left: 0
+    right: 0
+    margin: auto
+    border-radius: 50%
+    background-color: $font
+    img
+      width: pc(67vw)
+      height: pc(67vw)
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      margin: auto
+
+  main
+    overflow: hidden
+    background-image: url(../../background_desktop.jpg)
+    background-size: contain
+    background-repeat: repeat
+
+  #main, footer
+    width: pc(1030vw)
+    position: relative
+    left: pc(75vw)
+
+  #main
+    overflow: visible
+
+  main
+    padding-top: pch(30vh)
+    h1
+      font-size: pc(39vw)
+      line-height: 125%
+      //margin-top: xdh(132vh)
+      //position: absolute
+      //top: pch(132vh)
+
+    h1::after
+      width: pc(1030vw)
+      height: pc(7.5vw)
+      content: ""
+      display: block
+      position: relative
+      left: pc(-15vw)
+    h1.active::after
+      animation: sdh 1.5s cubic-bezier(1, 0, 0, 1)
+      +sdh
+
+    h1.green::after
+      background-color: $green
+    h1.pink::after
+      background-color: $pink
+    h1.orange::after
+      background-color: $orange
+
+    article
+      width: 80%
+      margin-bottom: 25vh
+      position: relative
+
+      h2
+        +sans-serif
+        font-size: pc(20vw)
+        margin: pch(90vh) 0 pch(15vh) 0
+      h2.green
+        color: $green
+      h2.pink
+        color: $pink
+      h2.orange
+        color: $orange
+      h2.deco
+        color: $font
+
+      p
+        font-size: pc(20vw)
+        line-height: pc(32vw)
+
+  #video
+    h1
+      font-size: xd(25vw)
+
+  #about
+    h1
+      font-size: pc(30vw)
+
+  footer
+    +footerpc
+
+  #copylight
+    +copylightpc
+
+  .timetable
+    //border: 9px solid $font
+    width: 30%
+    position: relative
+    left: pc(-15vw)
+    margin-top: pch(10vh)
+
+  .numbers
+    float: left
+    height: pc(25vw)
+    position: relative
+    top: 0.5vw
+
+  .list
+    position: relative
+    left: pc(25vw)
+    font-size: pc(21vw)
+
+  .box
+    height: pc(36vw)
+    margin-bottom: pch(7vh)
+
+  #long
+    left: pc(-15vw)
+
+  .button
+    width: 100%
+    height: pc(37vw)
+    position: relative
+    background-color: $font
+    margin-top: pc(21vw)
+    text-align: center
+    left: pc(-15vw)
+    p
+      padding-top: 0.4vw
+      font-size: 1.5vw
+      color: $base
+
+  .button-p
+    background-color: $pink
+
+  .button-g
+    background-color: $green
+
+  .button-o
+    background-color: $orange
+
+  .button-sp
+    background-color: $font
+    p
+      color: $base
+
+  .link-p
+    border-bottom: 0.25vw solid $pink
+
+  .link-o
+    border-bottom: 0.25vw solid $orange
+
+  .link-g
+    border-bottom: 0.25vw solid $green
+
+  .link-sp
+    border-bottom: 0.25vw solid $font
+
+  span
+    border-bottom: 0.25vw solid $orange
+
+  p
+    padding-top: 0.7vh
+
+  .total
+    width: 45%
+    float: right
+    position: relative
+    right: -2.5vw
+    h2
+      font-size: pc(25vw)
+      margin-top: pch(30vh)
+
+  .numbers
+    float: left
+    height: pc(35vw)
+    position: relative
+    top: 0.5vw
+
+  .list
+    position: relative
+    left: pc(25vw)
+    font-size: pc(21vw)
+
+  .box
+    height: pc(46vw)
+
+  #long
+    left: pc(-15vw)
+
+
+//@media (min-width: 600px) and (max-width: 960px)
+  $width: 600
+
+
+
+@media screen and (max-width: 960px)
+  $width: 375
+  $height: 667
+  h1, h2, h3, h4, h5, h6, p, li, a
+    +serif
+
+  nav
+    +navi
+
+  aside
+    display: none
+
+  header
+    height: xdh(100vh)
+
+  #title
+    +title
+
+  main
+    overflow: hidden
+
+  #main, footer
+    width: 100vw - (2 * xd(30vw))
+    margin: 0 auto
+
+  #main
+    overflow: visible
+
+
+  main
+    background-image: url(../../background.jpg)
+    background-size: contain
+    background-repeat: repeat
+    padding-bottom: 25vh
+
+    h1
+      font-size: xd(39vw)
+      line-height: 75%
+      margin-top: xd(39vw / 8)
+      padding-top: 5vh
+      position: relative
+      z-index: 1
+
+    h1::after
+      width: (100vw - (2 * xd(30vw))) * 1.06
+      height: xd(10vw)
+      content: ""
+      display: block
+      position: relative
+      left: (100vw - (2 * xd(30vw))) * -0.03
+      z-index: -1
+      animation: sdh 1.5s cubic-bezier(1, 0, 0, 1)
+      +sdh
+
+    h1.green::after
+      background-color: $green
+    h1.pink::after
+      background-color: $pink
+    h1.orange::after
+      background-color: $orange
+
+    article
+      padding-top: xdh(20vh)
+      width: 100%
+      position: relative
+
+      h2
+        +sans-serif
+        font-size: xd(17vw)
+        margin: xdh(20vh) 0 xdh(10vh) 0
+
+      h2.green
+        color: $green
+      h2.pink
+        color: $pink
+      h2.orange
+        color: $orange
+      h2.deco
+        color: $font
+
+      p
+        font-size: xd(11vw)
+        line-height: xd(19vw)
+
+  #about
+      font-size: xd(30vw)
+
+  footer
+    +footer
+
+  #copylight
+    +copylight
+
+  .links
+    border-bottom: 0.5vw solid $pink
+
+  span
+    border-bottom: 0.5vw solid $pink
+
+  .timetable
+    //border: 9px solid $font
+    width: (100vw - xd(45vw)) * 0.45
+    position: relative
+    //left: (100vw - (2 * xd(30vw))) * -0.03
+
+
+  // input[type=radio]
+  //   display: none
+  //
+  // label
+  //   +serif
+  //   width: 100%
+  //   height: xd(37vw)
+  //   font-size: 5vw
+  //   position: relative
+  //   display: block
+  //   background-color: $pink
+  //   margin-bottom: xd(21vw)
+  //   text-align: center
+  //
+  // .content
+  //   display: none
+  //
+  // #ground_bot
+  //
+  //
+  // #ground_bot::before
+  //   float: left
+  //
+  // #ground:checked ~ #ground_content
+  //   display: none
+  //
+  // #enshuhitu_bot
+  //
+  // #shoukoudou_bot
+
+  .button
+    width: 100%
+    height: xd(37vw)
+    position: relative
+    background-color: $font
+    margin-bottom: xd(21vw)
+    text-align: center
+    p
+      padding-top: 2.4vw
+      font-size: 5vw
+      color: $base
+
+  .button-p
+    background-color: $pink
+
+  .button-g
+    background-color: $green
+
+  .button-o
+    background-color: $orange
+
+  .button-sp
+    background-color: $font
+    p
+      color: $base
+
+  .link-p
+    border-bottom: 0.5vw solid $pink
+
+  .link-o
+    border-bottom: 0.5vw solid $orange
+
+  .link-g
+    border-bottom: 0.5vw solid $green
+
+  .link-sp
+    border-bottom: 0.5vw solid $font
+
+  p
+    padding-top: 1vw
+
+  .total
+    width: 45%
+    float: right
+    position: relative
+    right: -2.5vw
+
+  .numbers
+    float: left
+    height: xd(30vw)
+    position: relative
+    //bottom: 0.5vw
+
+  .list
+    position: relative
+    left: xd(15vw)
+    font-size: xd(15vw)
+
+  .no-icon
+    left: 0
+
+  .box
+    height: xd(38vw)
+
+  #long
+    left: (100vw - (2 * xd(30vw))) * -0.03
+
+  .sectop
+    margin-top: 25vw
+
+  .sect
+    margin-top: 40vw

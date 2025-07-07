@@ -1,0 +1,543 @@
+ html {
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     padding: 0;
+     background-color: #fff;
+     color: #333;
+     font-size: 62.5%;
+     font-family: "Yu Gothic", "游ゴシック", "ヒラギノ角ゴシック W0", "HGｺﾞｼｯｸM", "ＭＳ Ｐゴシック", sans-serif;
+ }
+ 
+ body {
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     padding: 0;
+     background-color: white;
+     color: #000;
+     font-size: 1.4em;
+     font-size: 1.4rem;
+     font-family: "Yu Gothic", "游ゴシック", "ヒラギノ角ゴシック W0", "HGSｺﾞｼｯｸM", "HGｺﾞｼｯｸM", "ＭＳ Ｐゴシック", sans-serif;
+ }
+ 
+ h1,
+ h2,
+ h3 {
+     font-weight: normal;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ p,
+ h1,
+ h2,
+ .footer {
+     opacity: 0;
+ }
+ 
+ .wf-loading p,
+ .wf-loading h1,
+ .wf-loading h2,
+ .wf-loading .footer {
+     opacity: 0;
+     font-family: "モトヤフォント", "Droid Sans Japanese", "ヒラギノ角ゴ ProN W3", "HGSｺﾞｼｯｸM", "ＭＳ Ｐゴシック", sans-serif;
+ }
+ 
+ .wf-active p,
+ .wf-active h1,
+ .wf-active h2,
+ .wf-active .footer {
+     -webkit-animation: load .5s linear;
+     animation: load .5s linear;
+     opacity: 1;
+ }
+ 
+ .page {
+     position: absolute;
+     bottom: 15px;
+     right: 45px;
+ }
+ 
+ @-webkit-keyframes load {
+     0% {
+         opacity: 0;
+     }
+     100% {
+         opacity: 1;
+     }
+ }
+ 
+ @keyframes load {
+     0% {
+         opacity: 0;
+     }
+     100% {
+         opacity: 1;
+     }
+ }
+ 
+ a:link {
+     color: #000;
+ }
+ 
+ a:visited {
+     color: #000;
+ }
+ 
+ a:hover {
+     color: #888;
+ }
+ 
+ a:active {
+     color: #000;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ .base {
+     width: 100%;
+     height: 100%;
+     background-color: white;
+     position: relative;
+     margin: 0;
+     box-sizing: border-box;
+     padding-top: 15px;
+     padding-left: 3%;
+     padding-right: 3%;
+ }
+ 
+ .wrapper {
+     width: 100%;
+     height: 100%;
+     font-size: 150%;
+     text-align: center;
+ }
+ 
+ .top {}
+ 
+ h1 {
+     position: absolute;
+     bottom: 70%;
+     width: auto !important;
+ }
+ 
+ h2 {
+     margin-top: 10px;
+ }
+ 
+ li {
+     list-style: none;
+ }
+ 
+ .name {
+     font-size: 110%;
+     position: absolute;
+     bottom: 10%;
+     left: 50%;
+ }
+ 
+ .index {}
+ 
+ .index div {
+     height: auto;
+     width: 40%;
+     display: inline-block;
+     text-align: center;
+     list-style: none;
+     box-sizing: border-box;
+     margin-top: 50px;
+     position: relative;
+ }
+ 
+ .index div li {
+     margin-bottom: 10px;
+ }
+ 
+ .about {}
+ 
+ .target {}
+ 
+ .op0 {
+     opacity: 0;
+     position: relative;
+     display: inline-block;
+ }
+ 
+ .ex1 {}
+ 
+ h3 {
+     margin-bottom: 5px;
+ }
+ 
+ p {
+     margin-top: 0px;
+ }
+ 
+ .ex1 div {
+     height: auto;
+     width: 45%;
+     display: inline-block;
+     text-align: center;
+     list-style: none;
+     box-sizing: border-box;
+     margin-top: 0px;
+     position: relative;
+     overflow: auto;
+ }
+ 
+ .ex1 div li {
+     margin-bottom: 5px;
+ }
+ 
+ ol li {
+     list-style: decimal;
+     text-align: left;
+ }
+ 
+ .box {
+     float: right;
+ }
+ 
+ .box ul {
+     margin-bottom: 5px;
+ }
+ 
+ .box li {
+     margin-top: 5px;
+     list-style: none;
+ }
+ 
+ .theory1 {}
+ 
+ .movie {}
+ 
+ .table {}
+ 
+ .table img {
+     width: 95%;
+     height: auto;
+ }
+ 
+ .view {}
+ 
+ .view div {
+     height: auto;
+     width: 45%;
+     display: inline-block;
+     text-align: center;
+     list-style: none;
+     box-sizing: border-box;
+     margin-top: 0px;
+     position: relative;
+     overflow: auto;
+ }
+ 
+ .view ul {
+     display: inline-block;
+     width: 80%;
+ }
+ 
+ .view ul li {
+     margin-bottom: 5px;
+     text-align: left;
+     list-style: circle;
+ }
+ 
+ .view li a {
+     color: #ff8000;
+ }
+ 
+ .view li a:hover {
+     color: #333;
+ }
+ 
+ .movie {}
+ 
+ .movie div {
+     height: auto;
+     width: 45%;
+     display: inline-block;
+     text-align: center;
+     list-style: none;
+     box-sizing: border-box;
+     margin-top: 0px;
+     position: relative;
+     overflow: auto;
+ }
+ 
+ .you iframe {
+     width: 100%;
+ }
+ 
+ .imp {}
+ 
+ .imp div {
+     height: auto;
+     width: 45%;
+     display: inline-block;
+     text-align: center;
+     list-style: none;
+     box-sizing: border-box;
+     margin-top: 0px;
+     position: relative;
+     overflow: auto;
+ }
+ 
+ .imp ul {
+     margin: 0;
+ }
+ 
+ .imp li {
+     margin-top: 0;
+     margin-bottom: 5px;
+     list-style: circle;
+     text-align: left;
+ }
+ 
+ .omake div {
+     height: auto;
+     width: 45%;
+     display: inline-block;
+     text-align: center;
+     list-style: none;
+     box-sizing: border-box;
+     margin-top: 0px;
+     position: relative;
+     overflow: auto;
+ }
+ 
+ .fadein {
+     -webkit-animation: FadeIn .8s ease-in;
+     animation: FadeIn .8s ease-in;
+     opacity: 1;
+     -webkit-animation-delay: .5;
+     animation-delay: .5;
+ }
+ 
+ .fade-left {
+     -webkit-animation: FadeLeft .5s ease-in;
+     animation: FadeLeft .5s ease-in;
+     opacity: 1;
+     -webkit-animation-delay: .5;
+     animation-delay: .5;
+ }
+ 
+ .fade-right {
+     -webkit-animation: FadeRight .5s ease-in;
+     animation: FadeRight .5s ease-in;
+     opacity: 1;
+     -webkit-animation-delay: .5;
+     animation-delay: .5;
+ }
+ 
+ .fade-up {
+     -webkit-animation: FadeUp .5s ease-in;
+     animation: FadeUp .5s ease-in;
+     opacity: 1;
+     -webkit-animation-delay: .5;
+     animation-delay: .5;
+ }
+ 
+ .fade-down {
+     -webkit-animation: FadeDown .5s ease-in;
+     animation: FadeDown .5s ease-in;
+     opacity: 1;
+     -webkit-animation-delay: .5;
+     animation-delay: .5;
+ }
+ 
+ @-webkit-keyframes FadeIn {
+     0% {
+         opacity: 0;
+     }
+     100% {
+         opacity: 1;
+     }
+ }
+ 
+ @keyframes FadeIn {
+     0% {
+         opacity: 0;
+     }
+     100% {
+         opacity: 1;
+     }
+ }
+ 
+ @-webkit-keyframes FadeLeft {
+     0% {
+         opacity: 0;
+         right: 60px;
+     }
+     100% {
+         opacity: 1;
+         right: 0px;
+     }
+ }
+ 
+ @keyframes FadeLeft {
+     0% {
+         opacity: 0;
+         right: 60px;
+     }
+     100% {
+         opacity: 1;
+         right: 0px;
+     }
+ }
+ 
+ @-webkit-keyframes FadeRight {
+     0% {
+         opacity: 0;
+         left: 60px;
+     }
+     100% {
+         opacity: 1;
+         left: 0px;
+     }
+ }
+ 
+ @keyframes FadeRight {
+     0% {
+         opacity: 0;
+         left: 60px;
+     }
+     100% {
+         opacity: 1;
+         left: 0px;
+     }
+ }
+ 
+ @-webkit-keyframes FadeUp {
+     0% {
+         opacity: 0;
+         bottom: 60px;
+     }
+     100% {
+         opacity: 1;
+         left: 0px;
+     }
+ }
+ 
+ @keyframes FadeUp {
+     0% {
+         opacity: 0;
+         bottom: 60px;
+     }
+     100% {
+         opacity: 1;
+         bottom: 0px;
+     }
+ }
+ 
+ @-webkit-keyframes FadeDown {
+     0% {
+         opacity: 0;
+         top: 60px;
+     }
+     100% {
+         opacity: 1;
+         top: 0px;
+     }
+ }
+ 
+ @keyframes FadeDown {
+     0% {
+         opacity: 0;
+         top: 60px;
+     }
+     100% {
+         opacity: 1;
+         top: 0px;
+     }
+ }
+ 
+ @media screen and (max-width: 900px) {
+     .name {
+         position: relative;
+         top: 50%;
+         left: 0;
+         margin-left: 0 !important;
+         text-align: center;
+     }
+     .name span {
+         display: block;
+     }
+ }
+ 
+ .no-svgasimg .svg {
+     display: none;
+ }
+ 
+ .svgasimg .jpg {
+     display: none;
+ }
+ 
+ .ma {
+     position: absolute;
+     bottom: 20px;
+     left: 10%;
+     z-index: 2;
+     display: inline-block;
+     -webkit-transform: translate(0, -50%);
+     transform: translate(0, -50%);
+     text-decoration: none;
+     padding-top: 60px;
+     -webkit-animation: flash 3s ease-in infinite;
+     animation: flash 3s ease-in infinite;
+     display: inline;
+ }
+ 
+ .ma span {
+     position: absolute;
+     top: 0;
+     left: 50%;
+     width: 46px;
+     height: 46px;
+     margin-left: -23px;
+     border: 1px solid #000;
+     border-radius: 100%;
+     box-sizing: border-box;
+ }
+ 
+ .ma span::after {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     content: '';
+     width: 16px;
+     height: 16px;
+     margin: -12px 0 0 -8px;
+     border-left: 1px solid #000;
+     border-bottom: 1px solid #000;
+     -webkit-transform: rotate(-45deg);
+     transform: rotate(-45deg);
+     box-sizing: border-box;
+ }
+ 
+ @-webkit-keyframes flash {
+     0% {
+         opacity: 1;
+     }
+     50% {
+         opacity: 0.3;
+     }
+     100% {
+         opacity: 1;
+     }
+ }
+ 
+ @keyframes flash {
+     0% {
+         opacity: 1;
+     }
+     50% {
+         opacity: 0.3;
+     }
+     100% {
+         opacity: 1;
+     }
+ }

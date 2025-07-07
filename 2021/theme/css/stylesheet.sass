@@ -1,0 +1,47 @@
+@import "../../css/util"
+@import "../../css/utilpc"
+
+@media screen and (min-width: 960px)
+  #theme-base
+    background-color: $font
+    width: pc(1030vw * 0.5)
+    height: pc(1030vw * 0.5)
+    display: flex
+    justify-content: center
+    margin-bottom: 3vh
+  #theme-img
+    width: pc(1030vw * 0.4)
+    height: pc(1030vw * 0.4)
+    position: absolute
+    top: pc(1030vw * 0.07)
+    left: pc(1030vw * 0.05)
+    right: pc(1030vw * 0.05)
+    //margin: auto
+
+  #list
+    p
+      line-height: pc(23vw)
+
+//@media (min-width: 600px) and (max-width: 960px)
+  $width: 600
+
+
+
+@media screen and (max-width: 960px)
+  #theme-base
+    background-color: $font
+    width: 100vw - (2 * xd(30vw))
+    height: 100vw - (2 * xd(30vw))
+    display: flex
+    justify-content: center
+    margin-bottom: 3vh
+  #theme-img
+    width: 80%
+    // position: absolute
+    // left: 0
+    // right: 0
+    // margin: auto
+
+  #list
+    p
+      line-height: xd(23vw)

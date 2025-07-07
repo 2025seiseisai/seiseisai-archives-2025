@@ -1,0 +1,99 @@
+@import "util"
+
+@function pc($val, $width: 1366)
+  @return $val / $width * 100
+
+@function pch($val, $height: 768)
+  @return $val / $height * 100
+
+=titlepc
+  position: absolute
+  top: pch(75vh)
+  left: pc(75vw)
+  h1
+    font-size: pc(40vw)
+    line-height: 100%
+  h3
+    font-size: pc(22vw)
+    line-height: 100%
+    margin-bottom: pch(11vh)
+
+=aside
+  width: pc(185vw)
+  height: 100vh
+  overflow: hidden
+  position: fixed
+  top: 0
+  right: 0
+  z-index: 99
+  background-color: $base
+  box-shadow: 0px 8px 24px rgba(0,0,0,0.64)
+  li
+    width: 100%
+    position: absolute
+    top: pch(190vh)
+    left: pc(20vw)
+    list-style: none
+
+  ul
+    font-size: pc(17.5vw)
+    line-height: 105%
+    margin-bottom: pch(30vh)
+    left: 15%
+
+  ul::after
+    width: 100%
+    height: pc(5vh)
+    content: ""
+    display: block
+    position: relative
+    left: -4%
+    z-index: -1
+    transition: 0.2s ease-out
+    animation: sdh 1s cubic-bezier(1, 0, 0, 1)
+    +sdh
+
+  ul:hover::after
+    left: -10%
+    // animation: sdh 1s cubic-bezier(1, 0, 0, 1)
+    // +sdh
+
+  ul.green::after
+    background-color: $green
+  ul.pink::after
+    background-color: $pink
+  ul.orange::after
+    background-color: $orange
+
+  .underconstruction
+    background-color: $base
+    opacity: 0.3
+
+=footerpc
+  height: pch(150vh)
+  margin-top: pch(50vh)
+  h1, p
+    font-size: pc(20vw)
+    line-height: 110%
+    margin-bottom: pc(25vw)
+
+  h1::after
+    width: 30%
+    height: pc(2vw)
+    content: ""
+    background-color: $orange
+    display: block
+    position: relative
+    left: -1%
+    transition: 0.7s ease-out
+
+  h1:hover::after
+    width: 50%
+    // animation: sdh 1s cubic-bezier(1, 0, 0, 1)
+    // +sdh
+  h1.active::after
+    animation: sdh 1s cubic-bezier(1, 0, 0, 1)
+    +sdh
+
+=copylightpc
+  margin: xd(25vw) 0

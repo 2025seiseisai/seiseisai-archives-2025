@@ -1,0 +1,61 @@
+@import "../../css/util"
+@import "../../css/utilpc"
+
+@media screen and (min-width: 960px)
+  // #tshirt-base
+  //   background-color: $font
+  //   width: pc(1030vw * 0.8)
+  //   height: pc(1030vw * 0.8)
+  //   display: flex
+  //   justify-content: center
+  //   //margin-bottom: 3vh
+  #tshirt-img
+    border: 9px solid $font
+    width: (100vw - (2 * xd(30vw))) * 0.9
+    // width: 90%
+    // position: absolute
+    // left: 0
+    // right: 0
+    // margin: auto
+  .underline
+    border-bottom: 0.25vw solid $orange
+  #links
+    border-bottom: 0.25vw solid $orange
+  p
+    margin-top: 1.5vh
+  .cost
+    margin-top: 0vh
+    margin-bottom: 1.5vh
+    border-bottom: 0.25vw solid $orange
+
+//@media (min-width: 600px) and (max-width: 960px)
+  $width: 600
+
+
+
+@media screen and (max-width: 960px)
+  // #tshirt-base
+  //   background-color: $font
+  //   width: 100vw - (2 * xd(30vw))
+  //   height: 100vw - (2 * xd(30vw))
+  //   display: flex
+  //   justify-content: center
+  //   //margin-bottom: 3vh
+  #tshirt-img
+    border: 9px solid $font
+    width: (100vw - (2 * xd(30vw))) * 0.9
+    // width: 90%
+    // position: absolute
+    // left: 0
+    // right: 0
+    // margin: auto
+  .underline
+    border-bottom: 0.5vw solid $orange
+  #links
+    border-bottom: 0.5vw solid $orange
+  p
+    margin-top: 1.5vh
+  .cost
+    margin-top: 0vh
+    margin-bottom: 1.5vh
+    border-bottom: 0.5vw solid $orange

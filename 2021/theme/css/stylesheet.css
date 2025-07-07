@@ -1,0 +1,83 @@
+* {
+  padding: 0vw;
+  margin: 0vw;
+}
+
+body {
+  background-color: #221202;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+  font-family: dnp-shuei-shogomincho-std, serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff9e6;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  padding: 0vw;
+  margin: 0vw;
+}
+
+body {
+  background-color: #221202;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+  font-family: dnp-shuei-shogomincho-std, serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff9e6;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 960px) {
+  #theme-base {
+    background-color: #fff9e6;
+    width: 37.701317716vw;
+    height: 37.701317716vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+  }
+
+  #theme-img {
+    width: 30.1610541728vw;
+    height: 30.1610541728vw;
+    position: absolute;
+    top: 5.2781844802vw;
+    left: 3.7701317716vw;
+    right: 3.7701317716vw;
+  }
+
+  #list p {
+    line-height: 1.6837481698vw;
+  }
+}
+@media screen and (max-width: 960px) {
+  #theme-base {
+    background-color: #fff9e6;
+    width: 84vw;
+    height: 84vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+  }
+
+  #theme-img {
+    width: 80%;
+  }
+
+  #list p {
+    line-height: 6.1333333333vw;
+  }
+}
+
+/*# sourceMappingURL=stylesheet.css.map */

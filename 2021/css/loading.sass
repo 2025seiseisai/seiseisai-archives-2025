@@ -1,0 +1,59 @@
+@import "util"
+@import "utilpc"
+
+.loaded
+  position: fixed
+  //z-index: 99
+  // opacity: 0
+  // transition: 5s
+  animation: loading-anime linear 10s forwards
+  @keyframes loading-anime
+    0%
+      z-index: 999
+      opacity: 1
+    30%
+      z-index: 999
+      opacity: 1
+    50%
+      opacity: 0
+    100%
+      z-index: -999
+      opacity: 0
+
+@media screen and (min-width: 960px)
+  #loading
+    display: none
+
+//@media (min-width: 600px) and (max-width: 960px)
+  $width: 600
+
+
+
+@media screen and (max-width: 960px)
+  #loading
+    width: 100vw
+    height: 100vh
+    background-color: $base
+  #loading-logo
+    width: xd(100vw)
+    height: xd(100vw)
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    margin: auto
+    border-radius: 50%
+    background-color: $font
+    z-index: 999
+    //transition: 0.7s ease-out
+    animation: loading-anime 6s
+    img
+      width: xd(90vw)
+      height: xd(90vw)
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      margin: auto
