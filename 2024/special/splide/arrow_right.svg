@@ -1,4 +1,1 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="20" cy="20" r="20" transform="matrix(-1 0 0 1 40 0)" fill="#FF0084"/>
-<path d="M12 12C12.8727 12 23.0303 17.4222 28 20L12 28" stroke="white" stroke-width="1.5"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" viewBox="0 0 40 40"><circle cx="20" cy="20" r="20" fill="#ff0084" transform="matrix(-1 0 0 1 40 0)"/><path stroke="#fff" stroke-width="1.5" d="M12 12c.87 0 11.03 5.42 16 8l-16 8"/></svg>

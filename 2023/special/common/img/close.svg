@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="45.66" height="45.66" viewBox="0 0 45.66 45.66">
-  <g id="グループ_177" data-name="グループ 177" transform="translate(5508.66 5100.829)">
-    <ellipse id="楕円形_7" data-name="楕円形 7" cx="22.801" cy="22.801" rx="22.801" ry="22.801" transform="translate(-5508.66 -5055.227) rotate(-89.928)" fill="none"/>
-    <rect id="長方形_103" data-name="長方形 103" width="1.498" height="20.704" transform="translate(-5493.679 -5084.79) rotate(-45)" fill="#fff"/>
-    <rect id="長方形_104" data-name="長方形 104" width="17.361" height="1.498" transform="translate(-5491.316 -5073.573) rotate(-45)" fill="#fff"/>
-    <path id="パス_224" data-name="パス 224" d="M858.314,106.33a.749.749,0,1,0,0,1.059.749.749,0,0,0,0-1.059" transform="translate(-6350.405 -5178.068)" fill="#fff"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="45.66" height="45.66" viewBox="0 0 45.66 45.66"><g data-name="グループ 177" transform="translate(5508.66 5100.83)"><circle cx="22.8" cy="22.8" r="22.8" fill="none" data-name="楕円形 7" transform="rotate(-89.93 -5285.12 230.18)"/><path fill="#fff" d="m-5493.68-5084.79 1.06-1.06 14.64 14.64-1.06 1.06z" data-name="長方形 103"/><path fill="#fff" d="m-5491.32-5073.57 12.28-12.28 1.06 1.06-12.28 12.28z" data-name="長方形 104"/><path fill="#fff" d="M-5492.1-5071.74a.75.75 0 1 0 0 1.06.75.75 0 0 0 0-1.06" data-name="パス 224"/></g></svg>
