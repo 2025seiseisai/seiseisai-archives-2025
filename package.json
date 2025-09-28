@@ -1,0 +1,15 @@
+{
+    "name": "seiseisai-archives",
+    "private": true,
+    "scripts": {
+        "check": "biome check",
+        "format": "biome format",
+        "dev": "bun install && opener http://localhost:8788 && wrangler pages dev ./ --local"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^2.2.4",
+        "@cloudflare/workers-types": "^4.20250927.0",
+        "opener": "^1.5.2",
+        "wrangler": "^4.40.2"
+    }
+}
