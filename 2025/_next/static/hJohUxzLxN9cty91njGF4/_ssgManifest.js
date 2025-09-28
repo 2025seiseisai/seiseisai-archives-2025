@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fapi\u002Fblog\u002F[round]\u002F[index]","\u002Fblog\u002F[round]\u002F[index]","\u002Fblog\u002F[round]\u002F[index]\u002Fopengraph-image","\u002Fblog\u002F[round]\u002F[index]\u002Ftwitter-image","\u002Fmap\u002F[exhibition]","\u002Fnews\u002F[id]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
