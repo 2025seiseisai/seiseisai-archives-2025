@@ -49,9 +49,11 @@ export default {
                 path === "/2021/error/404"
             ) {
                 // Return 404 status for custom 404 pages
+                const newHeaders = new Headers(responce.headers);
+                newHeaders.set("X-Robots-Tag", "noindex, nofollow");
                 return new Response(responce.body, {
                     status: 404,
-                    headers: responce.headers,
+                    headers: newHeaders,
                 });
             }
 
@@ -79,9 +81,20 @@ export default {
                     return assetsFetch("/2021/error/404");
                 }
 
-                return new Response("Not Found", { status: 404 });
+                const headers = new Headers();
+                headers.set("X-Robots-Tag", "noindex, nofollow");
+                return new Response("Not Found", { status: 404, headers });
             }
 
+            const contentType = responce.headers.get("content-type") || "";
+            if (contentType.includes("text/html")) {
+                const newHeaders = new Headers(responce.headers);
+                newHeaders.set("X-Robots-Tag", "noindex, nofollow");
+                return new Response(responce.body, {
+                    status: responce.status,
+                    headers: newHeaders,
+                });
+            }
             return responce;
         }
 
