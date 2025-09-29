@@ -1,5 +1,5 @@
 // XMLHttpRequestを使ってjsonデータを読み込む
-let requestURL = './script/events.json';//jsonへのパス
+let requestURL = '/2023/event/script/events.json';//jsonへのパス
 let request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
@@ -210,7 +210,7 @@ function PlaceDataToHtml( placeData, dateData ){
                 .text(thisEventData.name);
             
             var newArrowImg = $("<img>")
-                .attr("src", "img/time-table-arrow.svg")
+                .attr("src", "/2023/event/img/time-table-arrow.svg")
                 .addClass("time-content__arrow")
         
         newEvent

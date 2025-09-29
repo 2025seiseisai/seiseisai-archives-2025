@@ -4,7 +4,7 @@ var logo_animation = lottie.loadAnimation({
     renderer: 'svg',
     loop: true,
     autoplay: false,
-    path: "./static/img/logo.json" // JSONファイルのパス
+    path: "/2024/static/img/logo.json" // JSONファイルのパス
 });
 
 var theme_animation = lottie.loadAnimation({
@@ -12,7 +12,7 @@ var theme_animation = lottie.loadAnimation({
     renderer: 'svg',
     loop: true,
     autoplay: false,
-    path: "./static/img/ignitions.json" // JSONファイルのパス
+    path: "/2024/static/img/ignitions.json" // JSONファイルのパス
 });
 
 var scroll_animation = lottie.loadAnimation({
@@ -20,7 +20,7 @@ var scroll_animation = lottie.loadAnimation({
     renderer: 'svg',
     loop: true,
     autoplay: false,
-    path: "./static/img/scroll.json" // JSONファイルのパス
+    path: "/2024/static/img/scroll.json" // JSONファイルのパス
 });
 
 //画像等もすべて読み込まれた後に実行
